@@ -1,0 +1,83 @@
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+.dxwscCheckedTextContainer_pydc
+{
+    background-color: white;
+    border: 1px solid #9da0aa;
+    vertical-align: top;
+    overflow: auto;
+    height: 110px;
+    width: 340px;
+    padding: 5px;
+}
+.dxwscErrorWord_pydc
+{
+    background: url('scErrorUnderline.gif') repeat-x left bottom;
+    padding-bottom: 3px;
+    color: #201f35;
+    font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_pydc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+    background-color: White;
+    border: 1px solid #9da0aa;
+}
+.dxwscLoadingPanel_pydc td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 7px 10px;
+}
+.dxwscLoadingPanel_pydc .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_pydc .dxwscDlgFooter
+{
+    border-top: 1px solid #abacb9;
+    background-color: #ebecef;
+    padding: 12px 12px;
+    text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_pydc .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_pydc .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_pydc .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_pydc .dxwscDlgSpellCheckBtn
+{
+    width: 132px;
+}
+.dxwsc-main .dxpcLite_pydc .dxwscDlgContentSCFormContainer
+{
+    padding: 9px 62px 0px;
+}
+.dxwsc-main .dxpcLite_pydc .dxwscDlgMainSpellCheckOptionsFormTable .dxwscDlgContentSCOptionsFormContainer
+{
+    padding: 12px 12px 0px;
+}
+.dxwsc-main .dxpcLite_pydc .dxwscDlgSpellCheckForm .dxwscDlgListBoxContainer
+{
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+.dxwsc-main .dxpcLite_pydc .dxwscDlgOptionsForm .dxwscDlgLanguagePanel
+{
+    padding-top: 10px;
+    padding-bottom: 12px;
+}

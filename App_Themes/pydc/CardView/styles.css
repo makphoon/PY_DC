@@ -1,0 +1,597 @@
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+.dxcvCard_pydc .dxflGroupBoxCaption_pydc
+{
+    background-color: #F2F3F4;
+}
+.dxcvPopupEditForm_pydc .dxflGroupBoxCaption_pydc
+{
+    background-color: white;
+}
+.dxcvCard_pydc .dxflPCSys .dxflGroupBoxCaption_pydc
+{
+    background-color: white;
+}
+.dxcvPopupEditForm_pydc .dxflPCSys .dxflGroupBoxCaption_pydc
+{
+    background-color: white;
+}
+.dxcvControl_pydc,
+.dxcvDisabled_pydc
+{
+    border: 1px solid #9da0aa;
+    font: 11px Verdana, Geneva, sans-serif;
+    background-color: #f1f2f6;
+    color: #201f35;
+    cursor: default;
+}
+.dxcvDisabled_pydc
+{
+    color: #b1b1b8;
+}
+.dxcvControl_pydc a.dxeHyperlink:not([href]):not([onclick]):not(.dxbButtonSys)
+{
+    color: #201f35;
+    text-decoration: none;
+}
+.dxcvControl_pydc a
+{
+    color: #1b3f91;
+    text-decoration: none;
+}
+.dxcvControl_pydc a:hover
+{
+    text-decoration: underline;
+}
+.dxcvControl_pydc a:hover.dxbDisabled_pydc
+{
+    color: #babac1;
+    text-decoration: none;
+}
+.dxcvDisabled_pydc a
+{
+    color: #b1b1b8;
+}
+/*Loading Panel*/
+.dxcvLoadingPanel_pydc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+    background-color: White;
+    border: 1px solid #9da0aa;
+}
+.dxcvLoadingPanel_pydc td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 7px 10px;
+}
+.dxcvLoadingPanel_pydc .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+}
+.dxcvLoadingPanelStatusBar_pydc .dxlp-loadingImage
+{
+    background-image: url('StatusBarLoading.gif');
+    height: 15px;
+    width: 15px;
+}
+.dx-acc-r.dxcvLoadingPanel_pydc .dxlp-loadingImage:before
+{
+    content: url('../Web/Loading.gif');
+}
+.dx-acc-r.dxcvLoadingPanelStatusBar_pydc .dxlp-loadingImage:before
+{
+    content: url('StatusBarLoading.gif');
+}
+.dxcvLoadingPanelStatusBar_pydc
+{
+    background-color: Transparent;
+}
+.dxcvLoadingPanelStatusBar_pydc td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0 2px;
+}
+.dxcvFilterPopupWindow_pydc
+{
+    color: #201f35;
+    border: 1px solid #9da0aa;
+}
+.dxcvFilterPopupItemsArea_pydc
+{
+    color: #201f35;
+    background-color: White;
+}
+.dxcvFilterPopupButtonPanel_pydc
+{
+    background-color: #ebecef;
+    border-top: 1px solid #9da0aa;
+    color: #201f35;
+}
+.dxcvFilterPopupItem_pydc td.dxcv,
+.dxcvFilterPopupActiveItem_pydc td.dxcv,
+.dxcvFilterPopupSelectedItem_pydc td.dxcv
+{
+    padding: 3px 2px 3px 3px;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_pydc
+{
+    background: #e2eafd none;
+    color: #201f35;
+}
+.dxcvFilterPopupSelectedItem_pydc
+{
+    background: #eff0f2 none;
+    color: #201f35;
+}
+.dxcvTable_pydc,
+.dxcvControl_pydc .dxcvCSD
+{
+    background-color: White;
+}
+.dxcvTable_pydc
+{
+    border-width: 0;
+    border-collapse: separate !important;
+    overflow: hidden;
+    padding: 20px;
+}
+.dxcvHeader_pydc
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 5px 6px;
+    border: 1px solid #cacbd3;
+    background: #f2f3f4 url('../GridView/gvHeaderBack.png') repeat-x left top;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+.dxcvHeader_pydc,
+.dxcvHeader_pydc table
+{
+    color: #201f35;
+}
+.dxcvHeader_pydc td
+{
+    white-space: nowrap;
+}
+.dxcvHeader_pydc a
+{
+    color: #1b3f91;
+    text-decoration: underline;
+}
+.dxcvHeader_pydc a.dxcvCommandItem_pydc
+{
+    margin: 0px 3px 0px 0px;
+    color: #1b3f91;
+    text-decoration: none;
+}
+.dxcvHeader_pydc a.dxcvCommandItem_pydc:hover
+{
+    text-decoration: underline;
+}
+.dxcvCustomization_pydc,
+.dxcvPopupEditForm_pydc
+{
+    padding: 0;
+    margin: 0;
+}
+.dxcvTitlePanel_pydc,
+.dxcvTable_pydc caption
+{
+    font-weight: normal;
+    padding: 3px 3px 5px;
+    text-align: center;
+    background: #f2f3f4 url('cvTitleBack.png') repeat-x left top;
+    color: #201f35;
+    border-bottom: 1px solid #9da0aa;
+}
+.dxcvLoadingDiv_pydc
+{
+    background-color: Gray;
+    opacity: 0.01;
+    filter: alpha(opacity=1);
+}
+.dxcvStatusBar_pydc
+{
+    background: #f9f9fc none;
+    border-top: 1px solid #cacbd3;
+}
+.dxcvStatusBar_pydc tr.dxcv
+{
+    height: 20px;
+}
+.dxcvStatusBar_pydc tr.dxcv > td
+{
+    padding: 4px;
+}
+.dxcvStatusBar_pydc tr.dxcv span .dxbButtonSys:first-child
+{
+    margin-left: 2px;
+}
+.dxcvCommandItem_pydc
+{
+    vertical-align: middle;
+}
+.dxcvCommandItem_pydc a
+{
+    margin: 0px 3px 0px 0px;
+    color: #1b3f91;
+    text-decoration: none;
+}
+.dxcvCommandItem_pydc a:hover
+{
+    text-decoration: underline;
+}
+.dxbButton_pydc[class~="dxcvCommandItem_pydc"]
+{
+    margin: -2px 2px;
+}
+.dxbButton_pydc[class~="dxcvCommandItem_pydc"] .dxb
+{
+    margin: -2px 2px;
+}
+.dxcvPagerTopPanel_pydc,
+.dxcvPagerBottomPanel_pydc
+{
+    background: #f1f2f6 url('cvPagerPanelBack.png') repeat-x left top;
+}
+.dxcvPagerTopPanel_pydc
+{
+    border-bottom: 1px solid #cacbd3;
+}
+.dxcvPagerBottomPanel_pydc
+{
+    border-top: 1px solid #cacbd3;
+}
+.dxcvControl_pydc .dxctToolbar_pydc.dxm-main.dxcvCTTop
+{
+    border-bottom-width: 1px;
+}
+.dxcvControl_pydc .dxctToolbar_pydc.dxm-main.dxcvCTBottom
+{
+    border-top-width: 1px;
+}
+.dxcvFilterBar_pydc
+{
+    border-top: 1px solid #cacbd3;
+    background: #f9f9fc none;
+}
+.dxcvFilterBar_pydc a
+{
+    color: #1b3f91;
+    text-decoration: underline;
+}
+.dxcvFilterBarCheckBoxCell_pydc
+{
+    padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_pydc
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_pydc
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_pydc
+{
+    padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_pydc
+{
+    background: white none;
+    padding: 6px 2px;
+}
+.dxcvFilterBuilderButtonArea_pydc
+{
+    background: #ebecef none;
+    border-top: 1px solid #abacb9;
+    padding: 6px;
+    white-space: nowrap;
+}
+.dxcvControl_pydc .dxpLite_pydc,
+.dxcvDisabled_pydc .dxpLite_pydc
+{
+    padding-top: 4px;
+}
+.dxcvControl_pydc div[id$='DXEPLPC']
+{
+    height: 47px;
+}
+.dxcvControl_pydc .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_pydc .dxcvHFDRC
+{
+    margin: 15px 15px 25px;
+}
+.dxcvControl_pydc .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_pydc .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_pydc .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 25px;
+}
+/* Removes flicking in iOS Safari*/
+.dxcvTable_pydc
+{
+    -webkit-tap-highlight-color: transparent;
+}
+.dxcvSearchPanel_pydc
+{
+    background: #ebecef;
+    border-bottom: 1px solid #cacbd3;
+    padding: 7px 6px;
+}
+.dxcvSearchPanel_pydc > table
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_pydc .dxcvSearchPanel_pydc .dxbButton_pydc
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_pydc .dxcvSearchPanel_pydc .dxbButton_pydc
+{
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_pydc .dxcvHL
+{
+    background: #ffd83a;
+    color: #201f35;
+    font-weight: bold;
+    font-style: normal;
+}
+/* TODO remove (replace to command button style) */
+.dxcvControl_pydc .dxcvSearchPanel_pydc .dxbButton_pydc
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_pydc .dxcvSearchPanel_pydc .dxbButton_pydc .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxcvCard_pydc,
+.dxcvFlowCard_pydc,
+.dxcvBreakpointsCard_pydc,
+.dxcvEmptyCard_pydc,
+.dxcvEmptyHiddenCard_pydc
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_pydc,
+.dxcvFlowCard_pydc,
+.dxcvBreakpointsCard_pydc,
+.dxcvEmptyCard_pydc
+{
+    border: 1px solid #CACBD3;
+    background-color: #F2F3F4;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_pydc
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_pydc
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvGroupRow_pydc
+{
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+.dxcvGroupRow_pydc .dxcvGRB
+{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+.dxcvGroupRow_pydc,
+.dxcvFlowCard_pydc,
+.dxcvBreakpointsCard_pydc,
+div.dxcvEmptyCard_pydc
+{
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+@media (max-width: 640px)
+{
+    .dxcvControl_pydc .dxcvTable_pydc.dxcvBPT
+    {
+        padding: 0 8px 8px 0;
+    }
+    .dxcvBPT .dxcvBreakpointsCard_pydc
+    {
+        margin: 8px 0 0 8px;
+    }
+}
+.dxcvFlowCard_pydc,
+div.dxcvEmptyCard_pydc
+{
+    display: inline-block;
+}
+div.dxcvEmptyCard_pydc.dxcvBreakpointsCard_pydc
+{
+    display: block;
+}
+.dxcvBreakpointsCard_pydc
+{
+    width: auto;
+    display: block;
+}
+.dxcvSelectedCard_pydc,
+.dxcvFocusedCard_pydc
+{
+    border-color: #CACBD3;
+    outline: 3px solid #EFF0F2;
+}
+.dxcvFocusedCard_pydc
+{
+    background-color: White;
+}
+.dxcvCardHover_pydc
+{
+    border-color: #CACBD3;
+    outline: 3px solid #E2EAFD;
+}
+.dxcvCard_pydc .dxflCaption_pydc,
+.dxcvBreakpointsCard_pydc .dxflCaption_pydc,
+.dxcvFlowCard_pydc .dxflCaption_pydc
+{
+    color: #7F7F7F;
+}
+.dxcvCard_pydc .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvBreakpointsCard_pydc .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_pydc .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvCard_pydc .dxflViewFormLayoutSys
+{
+    color: inherit;
+}
+.dxcvHeaderPanel_pydc
+{
+    background: #ebecef;
+    border-bottom: 1px solid #cacbd3;
+    padding: 2px 20px 8px 20px;
+}
+.dxcvHeaderPanel_pydc .dxcvHPGSC
+{
+    float: right;
+    margin-top: 12px;
+}
+div.dxcvHeader_pydc
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_pydc
+{
+    background: #f9f9fc;
+    border-top: 1px solid #cacbd3;
+    padding: 8px 21px;
+}
+.dxcvSummaryItem_pydc
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_pydc .dxcvSeparator_pydc,
+.dxcvControl_pydc .dxcvSeparator_pydc div
+{
+    width: 20px;
+    height: 20px;
+}
+.dxcvControl_pydc td.dxcvBatchEditCell_pydc
+{
+    padding: 0;
+    outline-width: 0 !important;
+}
+.dxcvControl_pydc .dxcvBatchEditModifiedCell_pydc
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 2px;
+}
+.dxcvBatchEditDeletedItem_pydc,
+.dxcvBatchEditDeletedItem_pydc.dxcvBatchEditNewItem_pydc
+{
+    background: white;
+}
+.dxcvBatchEditDeletedItem_pydc td:not(.dxcvCommandColumn_pydc),
+.dxcvControl_pydc .dxcvBatchEditDeletedItem_pydc .dxflCaptionCell_pydc .dxflCaption_pydc
+{
+    color: rgba(0,0,0,0.5) !important;
+}
+.dxcvBatchEditDeletedItem_pydc td.dxcvBatchEditModifiedCell_pydc
+{
+    background-color: #eefbe7;
+    outline-style: none;
+}
+.dxcvBatchEditNewItem_pydc
+{
+    background: #F0FAEA;
+}
+.dxcvControl_pydc .dxcvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_pydc .dxcvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_pydc .dxbButton_pydc
+{
+    margin-right: 10px;
+}
+.dxcvControl_pydc td.dxcvBatchEditCell_pydc .dxichCellSys
+{
+    padding-left: 0;
+}
+.dxcvControl_pydc .dxcvEMBC
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_pydc
+{
+    background-color: #ebecef;
+    border-top: 1px solid #CACBD3;
+    color: #ba1717;
+    padding: 6px 13px;
+}
+.dxcvFocusedCell_pydc
+{
+    box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+    -webkit-box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+    -moz-box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+}
+.dxcvFocusedCell_pydc .dxcvBatchEditModifiedCell_pydc:not(.dxcvBatchEditCell_pydc)
+{
+    outline: none;
+    box-shadow: 2px 1px 0 #d7f9c7, 2px 0px 0 #d7f9c7;
+    -webkit-box-shadow: 2px 1px 0 #d7f9c7, 2px 0px 0 #d7f9c7;
+    -moz-box-shadow: 2px 1px 0 #d7f9c7, 2px 0px 0 #d7f9c7;
+}

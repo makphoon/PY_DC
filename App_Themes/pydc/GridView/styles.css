@@ -1,0 +1,1219 @@
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+.dxgvEditForm_pydc .dxflGroupBoxCaption_pydc
+{
+    background-color: #f9f9fc;
+}
+.dxgvPopupEditForm_pydc .dxflGroupBoxCaption_pydc
+{
+    background-color: white;
+}
+.dxgvEditForm_pydc .dxflPCSys .dxflGroupBoxCaption_pydc
+{
+    background-color: white;
+}
+.dxgvPopupEditForm_pydc .dxflPCSys .dxflGroupBoxCaption_pydc
+{
+    background-color: white;
+}
+.dxgvControl_pydc,
+.dxgvDisabled_pydc
+{
+    border: 1px solid #9da0aa;
+    font: 11px Verdana, Geneva, sans-serif;
+    background-color: #f1f2f6;
+    color: #201f35;
+    cursor: default;
+}
+.dxgvDisabled_pydc
+{
+    color: #b1b1b8;
+}
+.dxgvControl_pydc a.dxeHyperlink:not([href]):not([onclick]):not(.dxbButtonSys)
+{
+    color: #201f35;
+    text-decoration: none;
+}
+.dxgvControl_pydc a
+{
+    color: #1b3f91;
+    text-decoration: none;
+}
+.dxgvControl_pydc a:hover
+{
+    text-decoration: underline;
+}
+.dxgvControl_pydc a:hover.dxbDisabled_pydc
+{
+    color: #babac1;
+    text-decoration: none;
+}
+.dxgvDisabled_pydc a
+{
+    color: #b1b1b8;
+}
+/*Loading Panel*/
+.dxgvEmptyDataRow_pydc.dxgvLVR > td.dxgv,
+.dxgvDataRow_pydc.dxgvLVR > td.dxgv,
+.dxgvGroupRow_pydc.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvRBB .dxgvEmptyDataRow_pydc.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_pydc.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_pydc.dxgvLVR > td.dxgv,
+.dxgvBECPSD .dxgvDataRow_pydc.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+.dxgvGroupRow_pydc td.dxgv.dxgvPHEC, .dxgvPreviewRow_pydc td.dxgv.dxgvPHEC,
+.dxgvDetailRow_pydc td.dxgv.dxgvPHEC, .dxgvGroupFooter_pydc td.dxgv.dxgvPHEC,
+.dxgvAdaptiveDetailRow_pydc td.dxgv.dxgvPHEC, .dxgvDataRow_pydc td.dxgvPHEC
+{
+    border-right: 1px Solid #d9dae0;
+}
+*[dir="rtl"] .dxgvGroupRow_pydc td.dxgv.dxgvPHEC, *[dir="rtl"] .dxgvPreviewRow_pydc td.dxgv.dxgvPHEC,
+*[dir="rtl"] .dxgvDetailRow_pydc td.dxgv.dxgvPHEC, *[dir="rtl"] .dxgvGroupFooter_pydc td.dxgv.dxgvPHEC,
+*[dir="rtl"] .dxgvAdaptiveDetailRow_pydc td.dxgv.dxgvPHEC, *[dir="rtl"] .dxgvDataRow_pydc td.dxgvPHEC
+{
+    border-left: 1px Solid #d9dae0;
+}
+.dxgvLoadingPanel_pydc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+    background-color: White;
+    border: 1px solid #9da0aa;
+}
+.dxgvLoadingPanel_pydc td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 7px 10px;
+}
+.dxgvLoadingPanel_pydc .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+}
+.dxgvLoadingPanelStatusBar_pydc .dxlp-loadingImage
+{
+    background-image: url('StatusBarLoading.gif');
+    height: 15px;
+    width: 15px;
+}
+.dx-acc-r.dxgvLoadingPanel_pydc .dxlp-loadingImage:before
+{
+    content: url('../Web/Loading.gif');
+}
+.dx-acc-r.dxgvLoadingPanelStatusBar_pydc .dxlp-loadingImage:before
+{
+    content: url('StatusBarLoading.gif');
+}
+.dxgvLoadingPanelStatusBar_pydc
+{
+    background-color: Transparent;
+}
+.dxgvLoadingPanelStatusBar_pydc td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0 2px;
+}
+.dxgvFilterPopupWindow_pydc
+{
+    color: #201f35;
+    border: 1px solid #9da0aa;
+}
+.dxgvFilterPopupItemsArea_pydc
+{
+    color: #201f35;
+    background-color: White;
+}
+.dxgvFilterPopupButtonPanel_pydc
+{
+    background-color: #ebecef;
+    border-top: 1px solid #9da0aa;
+    color: #201f35;
+}
+.dxgvFilterPopupItem_pydc td.dxgv,
+.dxgvFilterPopupActiveItem_pydc td.dxgv,
+.dxgvFilterPopupSelectedItem_pydc td.dxgv
+{
+    padding: 3px 2px 3px 3px;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxgvFilterPopupActiveItem_pydc
+{
+    background: #e2eafd none;
+    color: #201f35;
+}
+.dxgvFilterPopupSelectedItem_pydc
+{
+    background: #eff0f2 none;
+    color: #201f35;
+}
+.dxgvTable_pydc
+{
+    background-color: White;
+    border-width: 0;
+    border-collapse: separate !important;
+    overflow: hidden;
+}
+.dxgvTable_pydc .dxgvHEC
+{
+    background-color: White;
+    border-width: 0;
+    overflow: hidden;
+}
+.dxgvControl_pydc .dxgvFSDC
+{
+    background-color: #f9f9fc;
+}
+.dxgvControl_pydc .dxgvFSDC .dxgvFooter_pydc td.dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvControl_pydc .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_pydc .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_pydc .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_pydc td.dxgv
+{
+    border-bottom: 1px solid #d9dae0;
+    border-right: 1px solid #d9dae0;
+}
+.dxgvInlineEditRow_pydc td.dxgvIndentCell
+{
+    background: #f9f9fc none;
+}
+.dxgvInlineEditRow_pydc .dxgvCommandColumn_pydc
+{
+    background: #f9f9fc none;
+}
+.dxgvDataRowAlt_pydc
+{
+    background-color: #f7f4fd;
+}
+.dxgvFilterRow_pydc
+{
+    background-color: #ebecef;
+}
+.dxgvEditForm_pydc
+{
+    background-color: #f9f9fc;
+}
+.dxgvEditForm_pydc > td.dxgv
+{
+    border-bottom: 1px solid #d9dae0;
+    padding: 8px 10px 10px;
+}
+.dxgvEditForm_pydc > td.dxgvIndentCell
+{
+    background: #f9f9fc none;
+    border-right: 1px Solid #d9dae0;
+    border-left: 1px Solid #d9dae0;
+    border-top-width: 0px;
+}
+.dxgvSelectedRow_pydc,
+.dxgvSelectedCell_pydc
+{
+    background-color: #eff0f2;
+    color: #201f35;
+}
+.dxgvSelectedRow_pydc .dxgvSelectedCell_pydc
+{
+    background-color: #dbdbdd;
+}
+.dxgvFocusedRow_pydc
+{
+    background: #d9e4fd url('gvFocusedBack.png') repeat-x left top;
+    color: #201f35;
+}
+.dxgvSelectedRow_pydc .dxgvCommandColumn_pydc a,
+.dxgvSelectedRow_pydc .dxgvAIC a,
+.dxgvFocusedRow_pydc .dxgvCommandColumn_pydc a,
+.dxgvFocusedRow_pydc .dxgvAIC a
+{
+    color: #1b3f91;
+    text-decoration: none;
+}
+.dxgvSelectedRow_pydc .dxgvCommandColumn_pydc a:hover,
+.dxgvSelectedRow_pydc .dxgvAIC a:hover,
+.dxgvFocusedRow_pydc .dxgvCommandColumn_pydc a:hover,
+.dxgvFocusedRow_pydc .dxgvAIC a:hover
+{
+    text-decoration: underline;
+}
+.dxgvPreviewRow_pydc
+{
+    background-color: #f7f7f8;
+    color: #777777;
+}
+.dxgvDetailRow_pydc td.dxgv,
+.dxgvAdaptiveDetailRow_pydc td.dxgv,
+.dxgvPreviewRow_pydc td.dxgv,
+.dxgvEmptyDataRow_pydc td.dxgv
+{
+    padding: 20px 2px 20px 4px;
+    border-bottom: 1px solid #d9dae0;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxgvDetailRow_pydc td.dxgvDetailCell_pydc,
+.dxgvAdaptiveDetailRow_pydc td.dxgvAdaptiveDetailCell_pydc
+{
+    overflow: hidden;
+    border-bottom-color: #d9dae0;
+    padding: 16px 18px;
+}
+.dxgvPreviewRow_pydc td.dxgv
+{
+    padding: 10px 10px 10px 15px;
+}
+.dxgvDetailRow_pydc td.dxgvIndentCell,
+.dxgvAdaptiveDetailRow_pydc td.dxgvIndentCell
+{
+    padding-right: 0px;
+    border-bottom: 1px solid #d9dae0;
+}
+.dxgvAdaptiveDetailRow_pydc .dxgvADT > tbody > tr > td
+{
+    padding: 6px 6px 6px 0;
+}
+.dxgvAdaptiveDetailRow_pydc .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvAdaptiveDetailRow_pydc .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -4px 0 -4px 0;
+}
+.dxgvAdaptiveDetailRow_pydc .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvEmptyDataRow_pydc
+{
+    color: #777777;
+}
+.dxgvEmptyDataRow_pydc td.dxgv
+{
+    border-bottom: 1px solid #d9dae0;
+    text-align: center;
+}
+.dxgvEditFormDisplayRow_pydc td.dxgv,
+.dxgvDetailCell_pydc td.dxgv,
+.dxgvAdaptiveDetailCell_pydc td.dxgv,
+.dxgvDataRow_pydc td.dxgv,
+.dxgvAdaptiveDetailRow_pydc td.dxgvAIC
+{
+    overflow: hidden;
+    border-bottom: 1px solid #d9dae0;
+    border-right: 1px solid #d9dae0;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 4px 6px;
+}
+.dxgvDataRow_pydc td.dxgvAIC,
+.dxgvInlineEditRow_pydc td.dxgvAIC
+{
+    padding: 0 4px;
+}
+.dxgvAdaptiveDetailRow_pydc td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_pydc td.dxgvIndentCell
+{
+    background: #f9f9fc none;
+    border-right: 1px Solid #d9dae0;
+    border-left: 1px Solid #d9dae0;
+    border-top-width: 0px;
+}
+.dxgvEditingErrorRow_pydc
+{
+    background-color: #ebecef;
+    color: #ba1717;
+}
+.dxgvEditingErrorRow_pydc td.dxgv
+{
+    white-space: pre-wrap;
+    border-bottom: 1px solid #d9dae0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 6px 10px;
+}
+.dxgvFilterRow_pydc td.dxgv
+{
+    border-bottom: 1px solid #abacb9;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 2px 3px 2px 2px;
+    overflow: hidden;
+}
+.dxgvGroupRow_pydc,
+.dxgvBatchEditChangesPreviewGroupRow_pydc
+{
+    background-color: #f9f9fc;
+}
+.dxgvFocusedGroupRow_pydc
+{
+    background: #d9e4fd url('gvFocusedBack.png') repeat-x left top;
+    color: #201f35;
+}
+.dxgvGroupRow_pydc td.dxgv,
+.dxgvFocusedGroupRow_pydc td.dxgv,
+.dxgvBatchEditChangesPreviewGroupRow_pydc td.dxgv
+{
+    border: 0 none;
+    vertical-align: middle;
+    border-bottom: 1px solid #d9dae0;
+    padding: 4px 6px;
+    background-color: inherit;
+}
+.dxgvFocusedRow_pydc td.dxgvIndentCell,
+.dxgvFocusedGroupRow_pydc td.dxgvIndentCell,
+.dxgvSelectedRow_pydc td.dxgvIndentCell
+{
+    background: #f9f9fc !important;
+    border-right: 1px solid #d9dae0;
+    border-left: 1px solid #d9dae0;
+    border-top-width: 0px;
+}
+.dxgvHeaderPanel_pydc
+{
+    background-color: #ebecef;
+    color: #201f35;
+    padding: 8px 6px;
+    border-bottom: 1px solid #abacb9;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_pydc,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_pydc
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_pydc
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 5px 6px;
+    border: 1px solid #cacbd3;
+    background: #f2f3f4 url('gvHeaderBack.png') repeat-x left top;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+.dxgvHeader_pydc,
+.dxgvHeader_pydc table
+{
+    color: #201f35;
+}
+.dxgvHeader_pydc td
+{
+    white-space: nowrap;
+}
+.dxgvHeader_pydc.dxgvAIC
+{
+    padding-left: 4px;
+    padding-right: 5px;
+}
+.dxgvHeader_pydc a,
+.dxgvHeader_pydc a.dxgvCommandColumnItem_pydc,
+.dxgvHeader_pydc a.dxgvCommandColumnItem_pydc.dxbDisabled_pydc,
+.dxgvCommandColumn_pydc a,
+.dxgvCommandColumn_pydc a.dxgvCommandColumnItem_pydc.dxbDisabled_pydc
+{
+    color: #1b3f91;
+}
+.dxgvHeader_pydc a
+{
+    text-decoration: underline;
+}
+.dxgvHeader_pydc a.dxgvCommandColumnItem_pydc
+{
+    margin: 0px 3px 0px 0px;
+    text-decoration: none;
+}
+.dxgvHeader_pydc a.dxgvCommandColumnItem_pydc:hover
+{
+    text-decoration: underline;
+}
+.dxgvHeader_pydc a.dxgvCommandColumnItem_pydc.dxbDisabled_pydc,
+.dxgvCommandColumn_pydc a.dxgvCommandColumnItem_pydc.dxbDisabled_pydc
+{
+    opacity: 0.5;
+    text-decoration: none;
+}
+.dxgvCustomization_pydc,
+.dxgvPopupEditForm_pydc
+{
+    padding: 0;
+    margin: 0;
+}
+.dxgvPopupEditForm_pydc .dxgvEditingErrorRow_pydc .dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvAdaptiveGroupPanel_pydc,
+.dxgvGroupPanel_pydc
+{
+    color: #201f35;
+    background: #ebecef url('gvGroupPanelBack.png') no-repeat right top;
+    border-bottom: 1px solid #cacbd3;
+}
+.dxgvGroupPanel_pydc
+{
+    padding: 7px 6px;
+    white-space: nowrap;
+}
+.dxgvAdaptiveGroupPanel_pydc
+{
+    padding-left: 6px;
+    padding-top: 7px;
+}
+.dxgvAdaptiveGroupPanel_pydc div.dxgvADH
+{
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.dxgvAdaptiveGroupPanel_pydc.dxgvEAHP
+{
+    padding-bottom: 7px;
+}
+.dxgvAdaptiveHeaderPanel_pydc
+{
+    color: #201f35;
+    background: #ebecef;
+    border-bottom: 1px solid #cacbd3;
+    padding-top: 10px;
+}
+.dxgvAdaptiveHeaderPanel_pydc.dxgvEAHP
+{
+    padding: 10px 7px;
+}
+.dxgvAdaptiveFooterPanel_pydc
+{
+    background-color: #f9f9fc;
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_pydc,
+.dxgvAdaptiveFooterPanel_pydc
+{
+    padding-left: 24px;
+}
+.dxgvFooter_pydc
+{
+    background-color: #f9f9fc;
+    white-space: nowrap;
+}
+.dxgvFooter_pydc td.dxgv
+{
+    padding: 6px;
+    border-bottom: 1px solid #d9dae0;
+    border-right-width: 0;
+}
+.dxgvABRL .dxgvFooter_pydc td.dxgv,
+.dxgvABRL .dxgvGroupFooter_pydc td.dxgv
+{
+    border-right: 1px solid #d9dae0;
+}
+.dxgvGroupFooter_pydc
+{
+    background-color: #f9f9fc;
+}
+.dxgvGroupFooter_pydc td.dxgv
+{
+    padding: 6px;
+    border-bottom: 1px solid #d9dae0;
+    border-right-width: 0;
+}
+.dxgvDataRow_pydc td.dxgvIndentCell,
+.dxgvDetailRow_pydc td.dxgvIndentCell,
+.dxgvAdaptiveDetailRow_pydc td.dxgvIndentCell,
+.dxgvPreviewRow_pydc td.dxgvIndentCell,
+.dxgvGroupRow_pydc td.dxgvIndentCell,
+.dxgvGroupFooter_pydc td.dxgvIndentCell
+{
+    background-color: #f9f9fc;
+    border-right: 1px solid #d9dae0;
+    border-left: 1px solid #d9dae0;
+    border-top-width: 0px;
+}
+.dxgvTitlePanel_pydc,
+.dxgvTable_pydc caption
+{
+    font-weight: normal;
+    padding: 3px 3px 5px;
+    text-align: center;
+    background: #f2f3f4 url('gvTitleBack.png') repeat-x left top;
+    color: #201f35;
+    border-bottom: 1px solid #9da0aa;
+}
+.dxgvLoadingDiv_pydc
+{
+    background-color: Gray;
+    opacity: 0.01;
+    filter: alpha(opacity=1);
+}
+.dxgvStatusBar_pydc tr.dxgv
+{
+    height: 20px;
+}
+.dxgvStatusBar_pydc tr.dxgv > td
+{
+    padding: 4px;
+}
+.dxgvStatusBar_pydc .dxgvCommandColumn_pydc a
+{
+    margin-right: 10px;
+}
+.dxgvALE .dxgvStatusBar_pydc .dxgvCommandColumn_pydc,
+.dxgvAE .dxgvStatusBar_pydc .dxgvCommandColumn_pydc,
+.dxgvAdD .dxgvStatusBar_pydc .dxgvCommandColumn_pydc
+{
+    white-space: normal;
+}
+.dxgvALE .dxgvStatusBar_pydc .dxgvCommandColumn_pydc .dxbButton_pydc,
+.dxgvAE .dxgvStatusBar_pydc .dxgvCommandColumn_pydc .dxbButton_pydc,
+.dxgvAdD .dxgvStatusBar_pydc .dxgvCommandColumn_pydc .dxbButton_pydc
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: inline-table;
+}
+.dxgvStatusBar_pydc
+{
+    background: #f9f9fc none;
+    border-top: 1px solid #cacbd3;
+}
+.dxgvStatusBar_pydc tr.dxgv span .dxbButtonSys:first-child
+{
+    margin-left: 2px;
+}
+.dxgvCommandColumn_pydc
+{
+    padding: 2px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_pydc a
+{
+    margin: 0px 3px 0px 0px;
+    text-decoration: none;
+}
+.dxgvCommandColumn_pydc a:hover
+{
+    text-decoration: underline;
+}
+.dxbButton_pydc[class~="dxgvCommandColumnItem_pydc"],
+.dxgvStatusBar_pydc div.dxbButton_pydc,
+.dxbButton_pydc[class~="dxgvCommandColumnItem_pydc"] .dxb
+{
+    margin: -2px 2px;
+}
+.dxgvEditFormTable_pydc
+{
+    padding: 2px 6px 6px 4px;
+    color: #201f35;
+}
+.dxgvEditFormTable_pydc div.dxbButton_pydc
+{
+    margin: 0px 2px;
+}
+.dxgvEditFormTable_pydc a
+{
+    color: #1b3f91;
+    text-decoration: none;
+}
+.dxgvEditFormTable_pydc a:hover
+{
+    text-decoration: underline;
+}
+.dxgvEditFormCaption_pydc
+{
+    padding: 4px 4px 4px 10px;
+    white-space: nowrap;
+}
+.dxgvInlineEditCell_pydc
+{
+    padding: 1px;
+}
+.dxgvEditFormCell_pydc
+{
+    padding: 4px;
+    border-width: 0;
+}
+.dxgvPagerTopPanel_pydc,
+.dxgvPagerBottomPanel_pydc
+{
+    background: #f1f2f6 url('gvPagerPanelBack.png') repeat-x left top;
+}
+.dxgvControl_pydc .dxctToolbar_pydc.dxm-main.dxgvCTTop
+{
+    border-bottom-width: 1px;
+}
+.dxgvControl_pydc .dxctToolbar_pydc.dxm-main.dxgvCTBottom
+{
+    border-top-width: 1px;
+}
+.dxgvFilterBar_pydc
+{
+    border-top: 1px solid #cacbd3;
+    background: #f9f9fc none;
+}
+.dxgvFilterBar_pydc a
+{
+    color: #1b3f91;
+    text-decoration: underline;
+}
+.dxgvFilterBarCheckBoxCell_pydc
+{
+    padding: 0 7px 0 3px;
+}
+.dxgvFilterBarImageCell_pydc
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxgvFilterBarExpressionCell_pydc
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_pydc
+{
+    padding: 5px 6px 8px;
+}
+.dxgvFilterBuilderMainArea_pydc
+{
+    background: white none;
+    padding: 6px 2px;
+}
+.dxgvFilterBuilderButtonArea_pydc
+{
+    background: #ebecef none;
+    border-top: 1px solid #abacb9;
+    padding: 6px;
+    white-space: nowrap;
+}
+.dxgvDataRowHover_pydc
+{
+    background: #e2eafd none;
+    color: #201f35;
+}
+.dxgvControl_pydc .dxpLite_pydc,
+.dxgvDisabled_pydc .dxpLite_pydc
+{
+    padding-top: 7px;
+}
+.dxgvControl_pydc .dxgvHFC
+{
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.dxgvControl_pydc .dxgvHFC .dxeCalendar_pydc
+{
+    margin-left: 23px;
+}
+.dxgvControl_pydc div[id$='DXEPLPC']
+{
+    height: 47px;
+}
+.dxgvControl_pydc .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_pydc .dxgvHFDRC
+{
+    margin: 15px 15px 25px;
+}
+.dxgvControl_pydc .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_pydc .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_pydc .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 25px;
+}
+/* Removes flicking in iOS Safari*/
+.dxgvTable_pydc
+{
+    -webkit-tap-highlight-color: transparent;
+}
+.dxgvControl_pydc td.dxgvBatchEditCell_pydc:not(.dxBatchEditCheckBoxCell)
+{
+    padding: 0 2px;
+}
+.dxgvControl_pydc td.dxgvBatchEditModifiedCell_pydc
+{
+    background: #d7f9c7;
+}
+.dxgvBatchEditDeletedItem_pydc,
+.dxgvBatchEditNewItem_pydc.dxgvBatchEditDeletedItem_pydc
+{
+    background: #EFEFEF;
+}
+.dxgvBatchEditDeletedItem_pydc > td:not(.dxgvCommandColumn_pydc)
+{
+    color: rgba(0,0,0,0.5);
+}
+.dxgvBatchEditDeletedItem_pydc td.dxgvBatchEditModifiedCell_pydc
+{
+    background: #eefbe7;
+}
+td.dxgvBatchEditModifiedCell_pydc.dxgvSelectedCell_pydc
+{
+    background: #c6efce;
+}
+.dxgvBatchEditNewItem_pydc
+{
+    background: #F0FAEA;
+}
+.dxgvControl_pydc .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_pydc .dxgvErrorCell img
+{
+    margin: -2px 0;
+}
+.dxgvSearchPanel_pydc
+{
+    background: #ebecef;
+    border-bottom: 1px solid #cacbd3;
+    padding: 7px 6px;
+}
+.dxgvSearchPanel_pydc > table
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxgvControl_pydc .dxgvSearchPanel_pydc .dxbButton_pydc
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxgvControl_pydc .dxgvSearchPanel_pydc .dxbButton_pydc
+{
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxgvControl_pydc .dxgvHL
+{
+    background: #ffd83a;
+    color: #201f35;
+    font-weight: bold;
+    font-style: normal;
+}
+/* TODO remove (replace to command button style) */
+.dxgvControl_pydc .dxgvSearchPanel_pydc .dxbButton_pydc
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxgvControl_pydc .dxgvSearchPanel_pydc .dxbButton_pydc .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvFocusedCell_pydc
+{
+    box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+    -webkit-box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+    -moz-box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+}
+/* Customization Dialog */
+.dxgvCustDialog_pydc
+{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: White;
+}
+.dxpcLite_pydc .dxgvCustDialog_pydc.dxpc-mainDiv
+{
+    border: none;
+}
+.dxpcLite_pydc .dxgvCustDialog_pydc .dxpc-content
+{
+    padding: 0;
+}
+.dxgvCustDialogHeader_pydc
+{
+    padding-top: 11px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #9DA0AA;
+}
+.dxgvCustDialogHeader_pydc > div
+{
+    display: table-cell;
+}
+.dxgvCustDialogHeader_pydc > div:first-child,
+.dxgvCustDialogHeader_pydc > div:last-child
+{
+    vertical-align: top;
+}
+.dxgvCustDialogHeader_pydc > div:first-child
+{
+    padding-left: 11px;
+}
+.dxgvCustDialogHeader_pydc > div:last-child
+{
+    padding-right: 11px;
+}
+.dxgvCustDialogHeader_pydc a.dxbButton_pydc
+{
+    padding: 10px 10px 6px 10px;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TSC
+{
+    vertical-align: bottom;
+    padding: 0;
+    width: 100%;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS
+{
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    margin-bottom: -1px;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxgvCD_TSBW
+{
+    overflow: hidden;
+    padding: 0 16px;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxtcLite_pydc.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxtcLite_pydc.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxtcLite_pydc.dxtc-top > .dxtc-stripContainer .dxtc-last
+{
+    margin-right: 16px;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxtcLite_pydc.dxtc-top[dir="rtl"] > .dxtc-stripContainer .dxtc-last
+{
+    margin-left: 16px;
+    margin-right: 0;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxtcLite_pydc.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxtcLite_pydc.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent
+{
+    display: none;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxgvCD_TSLS,
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxgvCD_TSRS
+{
+    position: absolute;
+    top: -1px;
+    width: 16px;
+    height: 100%;
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxgvCD_TSLS
+{
+    left: 0;
+    background: linear-gradient(to right, white, rgba(255,255,255,0));
+}
+.dxgvCustDialogHeader_pydc .dxgvCD_TS .dxgvCD_TSRS
+{
+    right: 0;
+    background: linear-gradient(to left, white, rgba(255,255,255,0));
+}
+.dxgvCustDialogDragArea_pydc
+{
+    padding-bottom: 16px !important;
+}
+.dxgvCustDialogDragArea_pydc,
+.dxgvCustDialogFilteringPage_pydc
+{
+    padding: 0;
+}
+.dxgvCustDialogSortingPage_pydc .dxgvCustDialogDragArea_pydc,
+.dxgvCustDialogGroupingPage_pydc .dxgvCustDialogDragArea_pydc
+{
+    padding: 0 0 16px 0;
+    min-height: 49px;
+}
+.dxgvCustDialogDragArea_pydc .dxgvCD_DAETC
+{
+    color: #999999;
+    font-size: 13px;
+    text-align: center;
+    white-space: nowrap;
+    padding-top: 24px;
+}
+.dxgvCustDialogListArea_pydc .dxgvCD_LAC
+{
+    color: #666666;
+    font-weight: bold;
+    padding: 14px 0 8px 15px;
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvControl_pydc[dir="rtl"] .dxgvCustDialogListArea_pydc .dxgvCD_LAC
+{
+    padding-left: 0;
+    padding-right: 15px;
+}
+.dxgvCustDialogListArea_pydc .dxgvCD_LAIW
+{
+    padding-left: 4px;
+}
+.dxgvCustDialogColumnItem_pydc
+{
+    background-color: #FFFFFF;
+    color: rgba(0,0,0,0.64);
+    min-height: 48px;
+    transition: all 0.2s;
+}
+.dxgvCustDialogColumnItem_pydc > div
+{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+.dxgvCustDialogColumnItem_pydc > div:first-child
+{
+    padding-left: 18px;
+}
+.dxgvCustDialogColumnItem_pydc > div:last-child
+{
+    padding-right: 21px;
+}
+.dxgvCustDialogListArea_pydc .dxgvCustDialogColumnItem_pydc > div:first-child
+{
+    padding-left: 10px;
+}
+.dxgvCustDialogColumnItem_pydc div img
+{
+    vertical-align: middle;
+}
+.dxgvCustDialogDragArea_pydc .dxgvCustDialogColumnItem_pydc
+{
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogDragArea_pydc .dxgvCustDialogColumnItem_pydc > div:first-child
+{
+    height: 48px;
+    padding: 0;
+    padding-left: 8px;
+    text-align: center;
+    min-width: 28px;
+}
+.dxgvCustDialogDragArea_pydc .dxgvCustDialogColumnItem_pydc div:last-child,
+.dxgvCustDialogListArea_pydc .dxgvCustDialogColumnItem_pydc div:last-child
+{
+    height: 48px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvCustDialogDragArea_pydc .dxgvCustDialogColumnItem_pydc.DXCDDraggingItem
+{
+    transition: none;
+    position: relative;
+    box-shadow: 0 10px 0.25rem rgba(0,0,0,0.12), 0 0.25rem 0.5rem rgba(0,0,0,0.24);
+    z-index: 1;
+}
+.dxgvCustDialogSortingPage_pydc .dxgvCD_DAW,
+.dxgvCustDialogGroupingPage_pydc .dxgvCD_DAW
+{
+    position: relative;
+}
+.dxgvCustDialogSortingPage_pydc .dxgvCD_DAEB,
+.dxgvCustDialogGroupingPage_pydc .dxgvCD_DAEB
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 38px;
+    background: #EFEFEF;
+    box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.11);
+    cursor: pointer;
+    text-align: center;
+}
+.dxgvCustDialogSortingPage_pydc .dxgvCD_DAEB img,
+.dxgvCustDialogGroupingPage_pydc .dxgvCD_DAEB img
+{
+    margin-top: 14px;
+}
+.dxgvCustDialogFilteringPage_pydc
+{
+    background: #EFEFEF;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogColumnItem_pydc,
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc
+{
+    transition: none;
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogColumnItem_pydc.dxgvCD_EFCI,
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogColumnItem_pydc.dxgvCD_EFCI + .dxgvCustDialogFilterItem_pydc + .dxgvCustDialogColumnItem_pydc
+{
+    border-top: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogColumnItem_pydc:first-child
+{
+    border-top: none;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogColumnItem_pydc > div
+{
+    height: 28px;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogColumnItem_pydc > div:first-child
+{
+    padding-left: 10px;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc a
+{
+    cursor: pointer;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc a,
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxgvCD_FR > span.dxeBase_pydc
+{
+    font-size: medium;
+    line-height: 50px;
+}
+.dxgvCustDialogFilterItem_pydc
+{
+    margin-bottom: 17px;
+    background: white;
+}
+.dxgvCustDialogFilterItem_pydc + .dxgvCustDialogColumnItem_pydc.dxgvCD_EFCI
+{
+    margin-top: 17px;
+}
+.dxgvCustDialogColumnItem_pydc + .dxgvCustDialogFilterItem_pydc
+{
+    display: none;
+}
+.dxgvCustDialogColumnItem_pydc.dxgvCD_EFCI + .dxgvCustDialogFilterItem_pydc
+{
+    display: block;
+}
+.dxgvCustDialogFilterItem_pydc .dxgvCD_FR
+{
+    padding: 0 10px 18px 10px;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCD_UF
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCD_UF a
+{
+    text-transform: uppercase;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCD_FR + .dxgvCD_UF
+{
+    border-top: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilterItem_pydc .dxgvCD_UF.dxgvCD_UFLBV
+{
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCD_UF.dxgvCD_UFLBV a:not([class^="dxeTB"]),
+.dxgvCustDialogFilteringPage_pydc .dxgvCD_UFSC
+{
+    display: none;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCD_UF.dxgvCD_UFLBV .dxgvCD_UFSC
+{
+    display: block;
+}
+.dxgvCustDialogFilterItem_pydc .dxgvCD_UF.dxgvCD_UFLBV
+{
+    margin-bottom: 19px;
+}
+.dxgvCustDialogFilterItem_pydc .dxgvCD_UFSC
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 200px;
+}
+/* CustDialog filter editors */
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxeEditAreaSys
+{
+    font-size: 15px !important;
+    font-weight: 400;
+    margin-top: 2px !important;
+    margin-bottom: 1px !important;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc td.dxic
+{
+    padding: 4px 2px 4px 7px !important;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxeButtonEditButton_pydc
+{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxeSpinIncButton_pydc,
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxeSpinDecButton_pydc
+{
+    padding: 4px 8px;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxichTextCellSys,
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxeListBoxItem_pydc
+{
+    font-size: 14px;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxichTextCellSys
+{
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxeListBoxItem_pydc
+{
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc td.dxeC
+{
+    padding-right: 6px !important;
+}
+.dxgvCustDialogFilteringPage_pydc .dxgvCustDialogFilterItem_pydc .dxichCellSys
+{
+    padding-right: 7px;
+}
+/* CustDialog popup menu */
+.dxgvControl_pydc .dxmLite_pydc .dxgvCD_FRM
+{
+    font-size: 14px;
+}
+.dxgvControl_pydc .dxmLite_pydc .dxgvCD_FRM .dxm-popup .dxm-content
+{
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}

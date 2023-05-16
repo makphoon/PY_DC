@@ -1,0 +1,835 @@
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+/*ResourceNavigator*/
+/*ResourceNavigator*/
+.dxscControl_pydc .dxsc-detailed-apt-tooltip .dxsc-dat-container > div
+{
+    background: white;
+}
+.dxscControl_pydc .dxsc-detailed-apt-tooltip .dxsc-dat-header span,
+.dxscControl_pydc .dxsc-detailed-apt-tooltip .dxsc-dat-middle span
+{
+    color: black;
+}
+.dxscControl_pydc .dxsc-detailed-apt-tooltip .dxsc-dat-buttons-container .dxbButtonSys
+{
+    border-top-color: #d8d8d8;
+}
+.dxscControl_pydc .dxsc-detailed-apt-tooltip .dxsc-dat-buttons-container .dxbButtonSys:not(.dxsc-dat-colored-button)
+{
+    color: black;
+}
+.dxscControl_pydc .dxsc-detailed-apt-tooltip .dxsc-dat-buttons-container .dxbButtonSys.dxsc-dat-disabled-btn
+{
+    color: #AAAAAA;
+}
+.dxscControl_pydc
+{
+    background: #9da0aa;
+    border: 1px solid #9da0aa;
+    font: 11px Verdana, Geneva, sans-serif;
+}
+/*Loading Panel*/
+.dxscLoadingPanel_pydc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+    background-color: White;
+    border: 1px solid #9da0aa;
+}
+.dxscLoadingPanel_pydc td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 7px 10px;
+}
+.dxscLoadingPanel_pydc .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+}
+/* Headers */
+.dxscDateHeader_pydc,
+.dxscAlternateDateHeader_pydc,
+.dxscDayHeader_pydc,
+.dxscDateCellHeader_pydc,
+.dxscTodayCellHeader_pydc,
+.dxscTimelineDateHeader_pydc,
+.dxscHorizontalResourceHeader_pydc,
+.dxscVerticalResourceHeader_pydc
+{
+    color: #201f35;
+    background: #f2f2f3;
+    border-style: solid;
+    border-color: #cacbd3;
+    border-width: 1px 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dxscDayHeader_pydc
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_pydc
+{
+    border-width: 1px;
+}
+.dxscAlternateTimelineDateHeader_pydc,
+.dxscAlternateDateHeader_pydc
+{
+    background: #ede5f9;
+    color: #201f35;
+}
+.dxscTodayCellHeader_pydc
+{
+    border-top-width: 1px;
+    background: #e2eafd;
+}
+.dxscTimelineDateHeader_pydc
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxsc-month-mobile-layout .dxscDayHeader_pydc,
+.dxsc-month-mobile-layout .dxscDateCellHeader_pydc,
+.dxsc-month-mobile-layout .dxscTodayCellHeader_pydc
+{
+    padding: 4px;
+}
+.dxscAgendaView .dxscDateCell_pydc,
+.dxscAgendaView .dxscDateRow_pydc,
+.dxscControl_pydc .dxsc-agenda-header-row,
+.dxscControl_pydc .dxsc-agenda-horizontal-header
+{
+    background-color: white;
+    border-bottom: solid 1px #D2D2D2;
+}
+.dxscControl_pydc .dxscTodayDateCell_pydc,
+.dxscControl_pydc .dxscTodayDateRow_pydc
+{
+    background: #ede5f9;
+}
+.dxscControl_pydc .dxscTodayDateCell_pydc,
+.dxscControl_pydc .dxscTodayDateRow_pydc,
+.dxscTodayDayCell_pydc,
+.dxscTodayDayOfWeekCell_pydc
+{
+    color: #201f35;
+}
+.dxscControl_pydc .dxscTodayMonthOfYearCell_pydc,
+.dxscControl_pydc .dxscTodayMonthYearCaption_pydc,
+.dxscControl_pydc .dxscTodayDateRow_pydc .dxscYearCaption_pydc
+{
+    color: #7b7b7b;
+}
+.dxscHorizontalResourceHeader_pydc
+{
+    border-color: #cacbd3;
+    border-width: 1px 1px 1px 0;
+    background: #f2f2f3;
+}
+.dxscVerticalResourceHeader_pydc
+{
+    border-width: 1px 1px 0 0;
+    border-top-color: #9da0aa;
+    background: #f2f2f3;
+    white-space: normal;
+}
+.dxscSelectionBar_pydc
+{
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+/* Corners */
+.dxscLeftTopCorner_pydc,
+.dxscRightTopCorner_pydc,
+.dxscBottomLeftCorner_pydc,
+.dxscControl_pydc .dxsc-timeline-resourcesContainer
+{
+    background-color: #f2f2f3;
+}
+.dxscLeftTopCorner_pydc,
+.dxscRightTopCorner_pydc
+{
+    background-color: #f2f2f3;
+    width: 1px;
+    border-style: solid;
+    border-color: #9da0aa;
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_pydc
+{
+    border-width: 1px 1px 1px 0;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+.dxscHorizontalResourceHeader_pydc,
+.dxscVerticalResourceHeader_pydc
+{
+    border-top-color: #9da0aa;
+}
+/* Separators */
+.dxscGroupSeparatorVertical_pydc,
+.dxscGroupSeparatorHorizontal_pydc
+{
+    background: #ebecef;
+    border: 1px solid #9da0aa;
+}
+.dxscDayHdrsTbl .dxscGroupSeparatorVertical_pydc,
+.dxscDayHdrsTbl .dxscGroupSeparatorHorizontal_pydc
+{
+    background: White;
+    border-color: #9da0aa;
+}
+.dxscGroupSeparatorVertical_pydc
+{
+    width: 1px;
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_pydc
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+/* Apts Area */
+.dxscAllDayArea_pydc
+{
+    background-color: #ebecef;
+    border: 1px solid #9da0aa;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_pydc
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_pydc
+{
+    border: solid 1px;
+}
+.dxscTimelineCellBody_pydc
+{
+    height: 300px;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+.dxscAppointment_pydc
+{
+    color: #201f35;
+    border: 1px solid #9da0aa;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.dxscAppointment_pydc .dxsc-apt-intermediate-bg
+{
+    opacity: 1;
+}
+.dxscAppointment_pydc .dxsc-apt-gradient
+{
+    background: none;
+}
+.dxscAppointment_pydc.dxsc-vertical-apt .dxsc-apt-status-container
+{
+    width: 5px;
+}
+.dxscAppointmentInnerBorders_pydc
+{
+    border: 1px solid #9da0aa;
+    padding: 0px;
+}
+.dxscMoreButton_pydc
+{
+    color: #201f35;
+    text-decoration: underline;
+    padding: 0;
+}
+.dxscAppointmentHorizontalSeparator_pydc
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+/* Rulers */
+.dxscTimeRulerHoursItem_pydc,
+.dxscTimeRulerMinuteItem_pydc
+{
+    color: #646464;
+    background: White;
+    border: 1px solid #a0a0a0;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.dxscTimeRulerHoursItem_pydc
+{
+    border-right-width: 0;
+    border-left-color: #9da0aa;
+    text-align: right;
+    width: 45px;
+    padding: 4px 4px 4px;
+}
+.dxscTimeRulerMinuteItem_pydc
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.82em;
+    padding: 4px;
+    padding: 5px 1px 5px 1px;
+}
+.dxscTimeRulerHeaderHourItem_pydc
+{
+    width: 55px;
+}
+.dxscTimeRulerHeaderMinuteItem_pydc
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_pydc
+{
+    width: 16px;
+}
+/* Control elements */
+.dxscToolbarContainer_pydc
+{
+    background: #f1f2f6 url('CssImages/ToolbarBack.png') left top repeat-x;
+}
+.dxscToolbar_pydc
+{
+    padding: 3px 0 3px 3px;
+}
+.dxscViewSelector_pydc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    background-color: transparent;
+    padding: 0;
+}
+.dxscResourceNavigator_pydc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    background: White;
+    padding: 3px 6px 3px 3px;
+    border-color: #9da0aa;
+}
+.dxscResourceNavigator_pydc.dxsc-resselector-container
+{
+    padding: 8px 6px 8px 6px;
+}
+.dxscResourceNavigator_pydc .dxsc-restoken
+{
+    border: solid 1px #c9cad2;
+    background: #f1f2f3;
+    line-height: 100%;
+}
+.dxscResourceNavigator_pydc .dxsc-restoken .dxsc-rh-sys
+{
+    border: solid 1px #c9cad2;
+}
+.dxscResourceNavigator_pydc .dxsc-restokens .dxsc-restoken.dxsc-rh-color-mode .dxsc-rc-sys
+{
+    padding-left: 11px;
+}
+.dxscResourceNavigator_pydc .dxsc-restoken .dxsc-rh-sys
+{
+    width: 6px;
+    height: 100%;
+    left: -1px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.dxscResourceNavigator_pydc .dxsc-restoken .dxsc-rc-sys
+{
+    padding: 5px 0px 4px 7px;
+}
+.dxscResourceNavigator_pydc .dxsc-restoken .dxsc-restoken-remove
+{
+    margin: 7px 6px 6px 6px;
+    float: right;
+}
+.dxscResourceNavigator_pydc .dxpc-footerContent > div:first-child
+{
+    margin-right: 6px;
+}
+.dxscResourceNavigatorButton_pydc.dxsc-filter-button
+{
+    padding: 5px 6px 5px 6px;
+    background: #f1f2f3;
+    border: solid 1px #c9cad2;
+}
+.dxscResourceNavigatorButton_pydc.dxsc-more-button
+{
+    padding: 6px 6px 5px 6px;
+    background: #f1f2f3;
+    border: solid 1px #c9cad2;
+}
+.dxscResourceNavigatorButton_pydc.dxsc-more-button.dxsc-angle-up
+{
+    padding: 5px 6px 6px 6px;
+}
+.dxscResourceNavigatorButton_pydc.dxsc-filter-button > div,
+.dxscResourceNavigatorButton_pydc.dxsc-more-button > div
+{
+    padding-top: 1px;
+}
+.dxscViewVisibleInterval_pydc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+.dxscToolbarContainer_pydc .dxsc-adaptive-toolbar .dxsc-vvi-table
+{
+    min-width: 170px;
+}
+.dxscInplaceEditor_pydc
+{
+    background: #ebecef;
+    border: solid 3px black;
+    padding: 0;
+    color: #201f35;
+}
+.dxscErrorInfo_pydc
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: 1px solid #9da0aa;
+    border-width: 1px 0;
+}
+/* Buttons */
+.dxscViewNavigatorButton_pydc,
+.dxscViewNavigatorGotoDateButton_pydc
+{
+    color: #1b3f91;
+    background: transparent;
+    border: none;
+    line-height: 100%;
+    padding: 0;
+    min-height: 1em;
+    display: block !important;
+}
+.dxscViewNavigatorButton_pydc span,
+.dxscViewNavigatorGotoDateButton_pydc span
+{
+    padding: 0 10px;
+}
+.dxscViewNavigatorButtonHover_pydc span
+{
+    text-decoration: underline;
+}
+.dxscViewNavigatorButton_pydc.dxscViewNavigatorGotoTodayButton
+{
+    padding: 5px 0;
+}
+.dxscViewSelectorButton_pydc
+{
+    color: #201f35;
+    border: 1px solid #9da0aa;
+    border-width: 0 0 0 1px;
+    padding: 8px 18px;
+}
+.dxscViewSelector_pydc .dxmLite_pydc .dxm-main .dxm-item,
+.dxscViewSelector_pydc .dxmLite_pydc .dxm-main .dxm-spacing,
+.dxscViewSelectorIndent_pydc,
+.dxscViewSelectorButton_pydc
+{
+    background: #f1f2f6 url('CssImages/ViewSelectorButtonBack.png') left top repeat-x;
+}
+.dxscViewSelector_pydc .dxmLite_pydc .dxm-main .dxm-item.dxm-hovered,
+.dxscViewSelectorButtonHover_pydc
+{
+    background: #f7f9fe url('CssImages/ViewSelectorButtonHoverBack.png') left top repeat-x;
+    border-color: #9da0aa;
+}
+.dxscViewSelector_pydc .dxmLite_pydc .dxm-main .dxm-item.dxm-checked,
+.dxscViewSelectorButtonChecked_pydc
+{
+    background: White;
+    border-color: #9da0aa;
+}
+.dxscViewSelectorButtonPressed_pydc
+{
+    background: #f6f7f9 url('CssImages/ViewSelectorButtonPressedBack.png') left top repeat-x;
+    border-color: #9da0aa;
+}
+.dxscViewSelector_pydc.dxscVSVert .dxbButtonSys
+{
+    width: 100%;
+}
+.dxscViewSelector_pydc .dxmLite_pydc.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-content,
+.dxscViewSelector_pydc .dxmLite_pydc.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-content,
+.dxscViewSelector_pydc .dxmLite_pydc.dxm-ltr .dxm-main.dxm-vertical .dxm-image-l .dxm-content,
+.dxscViewSelector_pydc .dxmLite_pydc.dxm-ltr .dxm-main.dxm-vertical .dxm-image-r .dxm-content
+{
+    padding: 8px 18px;
+}
+.dxscViewSelector_pydc .dxmLite_pydc .dxm-main
+{
+    border: none;
+}
+.dxscViewSelector_pydc .dxmLite_pydc .dxm-main .dxm-item,
+.dxscViewSelector_pydc.dxscVSHorz,
+.dxscViewSelector_pydc.dxscVSVert
+{
+    border-style: solid;
+    border-color: #9da0aa;
+}
+.dxscViewSelector_pydc.dxscVSHorz
+{
+    border-width: 1px 0 1px 1px;
+}
+.dxscViewSelector_pydc.dxscVSVert
+{
+    border-width: 1px 1px 0 1px;
+}
+.dxscToolbar_pydc .dxscViewSelector_pydc
+{
+    border-width: 0;
+}
+.dxscViewSelector_pydc .dxmLite_pydc .dxm-main.dxm-horizontal .dxm-item,
+.dxscVSHorz .dxscViewSelectorButton_pydc
+{
+    border-width: 0 1px 0 0;
+}
+.dxscViewSelector_pydc .dxmLite_pydc .dxm-main.dxm-vertical .dxm-item,
+.dxscVSVert .dxscViewSelectorButton_pydc
+{
+    border-width: 0 0 1px 0;
+}
+.dxscToolbar_pydc .dxscViewSelector_pydc .dxmLite_pydc .dxm-main.dxm-horizontal .dxm-item,
+.dxscToolbar_pydc .dxscViewSelectorButton_pydc
+{
+    border-width: 0 0 0 1px;
+}
+.dxscResourceNavigatorButton_pydc
+{
+    background: none;
+    cursor: pointer;
+}
+.dxscResourceNavigatorButtonHover_pydc
+{
+    background: none;
+}
+.dxscResourceNavigatorButtonPressed_pydc
+{
+    background: none;
+}
+.dxscNavigationButton_pydc
+{
+    background: none;
+    cursor: pointer;
+}
+.dxscNavigationButtonHover_pydc
+{
+    background: none;
+}
+.dxscNavigationButtonPressed_pydc
+{
+    background: none;
+}
+.dxscSmartTagButton_pydc
+{
+    background: #f1f2f6 url('CssImages/ViewSelectorButtonBack.png') left top repeat-x;
+    border: 1px solid #9da0aa;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.dxscDVBottomMoreButton_pydc,
+.dxscDVTopMoreButton_pydc
+{
+    cursor: pointer;
+}
+.dxscNoBorderButton_pydc
+{
+    cursor: pointer;
+    border: 1px solid #9da0aa;
+}
+.dxscNoBorderButtonHover_pydc
+{
+    background: #d4dffc;
+    border-color: #9da0aa;
+}
+.dxscNoBorderButtonPressed_pydc
+{
+    background: #dddde2;
+    border-color: #9da0aa;
+}
+.dxscControlAreaForm_pydc
+{
+    font-size: 1.45em;
+    color: #201f35;
+    white-space: normal;
+    padding: 9px 12px 13px 12px;
+    background-color: white;
+}
+.dxscToolTipRoundedCornersTopBottomRow_pydc
+{
+    font-size: 0;
+}
+.dxscToolTipRoundedCornersTopSide_pydc
+{
+    border-top: 1px solid Black;
+    vertical-align: bottom;
+    height: 1px;
+    background-color: #fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_pydc
+{
+    border-left: 1px solid Black;
+    vertical-align: bottom;
+    background-color: #fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_pydc
+{
+    border-right: 1px solid Black;
+    vertical-align: bottom;
+    background-color: #fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_pydc
+{
+    border-bottom: 1px solid Black;
+    vertical-align: bottom;
+    height: 1px;
+    background-color: #fafad2;
+}
+.dxscToolTipRoundedCornersContent_pydc
+{
+    background-color: #fafad2;
+    padding: 0;
+}
+.dxscToolTipSquaredCorners_pydc
+{
+    background: #f9f9cd;
+    padding: 0;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: 1px solid Black;
+}
+.dxscTimeMarker_pydc
+{
+    top: -12px;
+}
+.dxscTimeMarkerLine_pydc
+{
+    top: -2px;
+    height: 3px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_pydc
+{
+    position: absolute;
+    background-color: White;
+    border: 1px solid #9da0aa;
+    width: 1px;
+    font-size: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    box-sizing: content-box;
+}
+.dxscTimeMarkerLineH_pydc
+{
+    position: absolute;
+    top: -2px;
+    background-color: White;
+    border: 1px solid #9da0aa;
+    height: 1px;
+    font-size: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxscClientRendering td.dxscTimeCellBody_pydc:last-child,
+.dxscClientRendering td.dxscDateCellBody_pydc.dxscLastCell,
+.dxscRendererTable.dxscClientRendering td.dxscDayHeader_pydc:last-child,
+.dxscRendererTable.dxscClientRendering td.dxscDateCellHeader_pydc.dxscLastCell,
+.dxscClientRendering.dxscTimelineView td.dxscTimelineDateHeader_pydc:last-child,
+.dxscClientRendering.dxscTimelineView td.dxscTimelineCellBody_pydc:last-child,
+.dxscRendererTable.dxscClientRendering td.dxscHorizontalResourceHeader_pydc
+{
+    border-right-width: 0px;
+}
+.dxscRendererTable.dxscClientRendering td.dxscHorizontalResourceHeader_pydc,
+.dxscClientRendering.dxscDayView td.dxscLeftTopCorner_pydc,
+.dxscClientRendering.dxscWeekView td.dxscLeftTopCorner_pydc
+{
+    border-bottom-width: 0px;
+}
+.dxscRendererTable.dxscClientRendering td.dxscDateCellHeader_pydc,
+.dxscRendererTable.dxscClientRendering td.dxscDateCellHeader_pydc.dxscCompressed.dxscFirstCell,
+.dxscRendererTable.dxscClientRendering td.dxscTodayCellHeader_pydc.dxscCompressed.dxscFirstCell
+{
+    border-left-width: 0px;
+}
+.dxscRendererTable.dxscClientRendering td.dxscDateCellHeader_pydc.dxscCompressed,
+.dxscRendererTable.dxscClientRendering td.dxscTodayCellHeader_pydc.dxscCompressed
+{
+    border-left-width: 1px;
+}
+.dxscClientRendering.dxscTimelineView .dxscVerticalResourceHeader_pydc.dxscFirstVerticalResourceHeader,
+.dxscClientRendering.dxscTimelineView .dxscTimelineDateHeader_pydc.dxscAlternateTimelineDateHeader_pydc,
+.dxscClientRendering.dxscTimelineView .dxscTimelineDateHeader_pydc
+{
+    border-top-width: 0px;
+}
+.dxscClientRendering.dxscTimelineView .dxscFirstScale .dxscTimelineDateHeader_pydc.dxscAlternateTimelineDateHeader_pydc,
+.dxscClientRendering.dxscTimelineView .dxscFirstScale .dxscTimelineDateHeader_pydc
+{
+    border-top-width: 1px;
+}
+.dxscControl_pydc table.dxsc-timeline-view
+{
+    border-top: 1px solid #9da0aa;
+}
+.dxscAgendaView .dxscEmptyCell_pydc
+{
+    background-color: White;
+    height: 65px;
+    text-align: center;
+    color: #5C5C5C;
+    font-size: 14px;
+}
+.dxscAgendaView .dxscAppointmentStatusCell_pydc
+{
+    border-left-color: #D2D2D2;
+    border-right-color: #D2D2D2;
+}
+.dxscControl_pydc .dxsc-agenda-compact-time-cell .dxsc-apt-time-table-wrapper
+{
+    border-right-color: #D2D2D2;
+    border-bottom-color: #D2D2D2;
+}
+.dxscControl_pydc .dxscAgendaView .dxsc-apt-status-cell,
+.dxscControl_pydc .dxscAgendaView .dxsc-agenda-apt > table,
+.dxscControl_pydc .dxsc-agenda-compact-time-cell .dxsc-apt-time-table-wrapper
+{
+    border-bottom: solid 1px #D2D2D2;
+}
+.dxscControl_pydc .dxsc-agenda-apt.dxsc-apt-no-status .dxsc-apt-start-arrow-cell
+{
+    border-left: 1px solid #D2D2D2;
+}
+.dxscControl_pydc .dxscDayScrollContainer,
+.dxscControl_pydc .dxscAgendaViewScrollContainer,
+.dxscControl_pydc .dxsc-timeline-scrollLimiter
+{
+    background: #f1f2f6;
+}
+.dxscControl_pydc .dxsc-agenda-apt .dxsc-apt-time-cell
+{
+    width: 180px;
+}
+.dxscControl_pydc .dxscAgendaView,
+.dxscControl_pydc .dxsc-scroll .dxscDayScrollContent,
+.dxscControl_pydc .dxsc-scroll .dxsc-timeline-horizontalContainer
+{
+    border-bottom: solid 1px #9f9f9f;
+}
+.dxscControl_pydc .dxsc-content-overflow .dxscAgendaView
+{
+    border-bottom-width: 0px;
+}
+.dxscControl_pydc .dxsc-scroll .dxscDayScrollBodyTable td:last-child
+{
+    border-right-width: 1px !important;
+}
+.dxscControl_pydc .dxscAgendaViewScrollContainer
+{
+    border-top: 1px solid #9f9f9f;
+}
+.dxscControl_pydc .dxsc-month-of-year
+{
+    color: #646464;
+}
+.dxscBorderSpacing .dxeBase_pydc.dxsc-reminder-form-apt-subject
+{
+    color: #201f35;
+}
+.dxscControl_pydc .dxsc-cell-touch-handle
+{
+    background-color: #f2f2f3;
+}
+.dxscControl_pydc .dxsc-cell-touch-handle .dxsc-touch-handle-line
+{
+    background-color: black;
+}
+.dxsc-dialog.dxsc-dialog-goto-date div.dxflFormLayout_pydc .dialog-lgc.dialog-group-ButtonsGroup > .dialog-lgb > .dialog-lg,
+.dxsc-dialog.dxsc-dialog-recur-apt-action div.dxflFormLayout_pydc .dialog-lgc.dialog-group-ButtonsGroup > .dialog-lgb > .dialog-lg,
+.dxsc-dialog div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-group-Recurrence > .dialog-lgb,
+.dxsc-dialog div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelEndDateGroup .dialog-lg,
+.dxsc-dialog div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-EndDateGroup .dialog-lg,
+.dxsc-dialog.dxsc-dialog-appoinment > div.dxflFormLayout_pydc:not(.dialog-singlecolumn) .dialog-lgc.dialog-group-ButtonsGroup > .dialog-lgb > .dialog-lg
+{
+    border-color: #D4D5DA;
+}
+.dxsc-dialog-appoinment div.dxflFormLayout_pydc .dialog-group-Recurrence > .dialog-lg,
+.dxsc-dialog-appoinment div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-group-RecurrenceViewModelEndDateGroup .dialog-lgb > .dialog-lg > div,
+.dxsc-dialog-appoinment div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-IsRecurring,
+.dxmodalSys .dxsc-dialog-appoinment div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelRecurrenceGroup .dialog-group-RecurrenceViewModelRecurrenceGroup,
+.dxsc-dialog-appoinment div.dxflFormLayout_pydc > .dialog-lg > div:not(.dialog-flow-container-ButtonsGroup)
+{
+    padding: 0 5px;
+}
+.dxsc-dialog-appoinment div.dxflFormLayout_pydc:not(.dialog-singlecolumn) .dialog-flow-container-ButtonsGroup
+{
+    margin-top: 10px;
+}
+.dxsc-dialog-appoinment div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-lgc .dialog-item-Description
+{
+    padding-top: 10px;
+}
+.dxsc-dialog div.dxflFormLayout_pydc .dialog-item-IsAllDay .dialog-aspxcheckbox,
+.dxsc-dialog div.dxflFormLayout_pydc .dialog-item-IsRecurring .dialog-aspxcheckbox
+{
+    padding-top: 3px;
+}
+.dxsc-dialog div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-lgb .dialog-lg .dialog-item-IsRecurring
+{
+    padding-bottom: 8px;
+}
+.dxsc-dialog div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-group-Recurrence > .dialog-lgb
+{
+    margin-top: 10px;
+}
+.dxsc-dialog div.dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelRecurrenceGroup
+{
+    margin-bottom: 18px;
+}
+.dxmodalSys .dxsc-dialog div.dxflFormLayout_pydc .dialog-group-RecurrenceViewModelEndDateGroup.dialog-lgc
+{
+    padding-top: 9px;
+}
+.dxsc-dialog-control-area .dxpnlControl_pydc.dxsc-dialog
+{
+    background-color: white;
+}
+.dxmodalSys .dxsc-dialog .dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelDailyRecurrenceDaysCount,
+.dxmodalSys .dxsc-dialog .dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelMonthlyRecurrenceDay,
+.dxmodalSys .dxsc-dialog .dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelMonthlyRecurrenceWeekOfMonth,
+.dxmodalSys .dxsc-dialog .dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelYearlyRecurrenceWeekDaysMonth,
+.dxmodalSys .dxsc-dialog .dxflFormLayout_pydc.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelYearlyRecurrenceWeekOfMonth,
+.dxsc-dialog .dxflFormLayout_pydc .dialog-flow-container-SnoozeTimeSpanCaption
+{
+    padding-top: 8px;
+}

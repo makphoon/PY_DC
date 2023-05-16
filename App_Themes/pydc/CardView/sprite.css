@@ -1,0 +1,47 @@
+
+.dxCardView_CTClearFilter_pydc, .dxCardView_CTClearFilterDisabled_pydc, .dxCardView_CTDeleteRow_pydc, .dxCardView_CTDeleteRowDisabled_pydc, .dxCardView_CTEditRow_pydc, .dxCardView_CTEditRowDisabled_pydc, .dxCardView_CTExportCsv_pydc, .dxCardView_CTExportCsvDisabled_pydc, .dxCardView_CTExportDocx_pydc, .dxCardView_CTExportDocxDisabled_pydc, .dxCardView_CTExportPdf_pydc, .dxCardView_CTExportPdfDisabled_pydc, .dxCardView_CTExportRtf_pydc, .dxCardView_CTExportRtfDisabled_pydc, .dxCardView_CTExportXls_pydc, .dxCardView_CTExportXlsDisabled_pydc, .dxCardView_CTExportXlsx_pydc, .dxCardView_CTExportXlsxDisabled_pydc, .dxCardView_CTFullCollapse_pydc, .dxCardView_CTFullCollapseDisabled_pydc, .dxCardView_CTFullExpand_pydc, .dxCardView_CTFullExpandDisabled_pydc, .dxCardView_CTNewRow_pydc, .dxCardView_CTNewRowDisabled_pydc, .dxCardView_CTRefresh_pydc, .dxCardView_CTRefreshDisabled_pydc, .dxCardView_CTShowCustomizationWindow_pydc, .dxCardView_CTShowCustomizationWindowDisabled_pydc, .dxCardView_CTShowFilterEditor_pydc, .dxCardView_CTShowFilterEditorDisabled_pydc, .dxCardView_CTShowSearchPanel_pydc, .dxCardView_CTShowSearchPanelDisabled_pydc, .dxCardView_CTUpdateSummaries_pydc, .dxCardView_cvCollapsedButton_pydc, .dxCardView_cvCollapsedButtonRtl_pydc, .dxCardView_cvExpandedButton_pydc, .dxCardView_cvExpandedButtonRtl_pydc, .dxCardView_gvCellError_pydc, .dxCardView_gvFilterRowButton_pydc, .dxCardView_gvHeaderFilter_pydc, .dxCardView_gvHeaderFilterActive_pydc, .dxCardView_gvHeaderSortDown_pydc, .dxCardView_gvHeaderSortUp_pydc, .dxCardView_gvUpdateSummariesButton_pydc { background-image: url('sprite.png'); background-repeat: no-repeat; background-color: transparent } 
+.dxCardView_CTClearFilter_pydc { background-position: -324px 0px; width: 16px; height: 16px } 
+.dxCardView_CTClearFilterDisabled_pydc { background-position: 0px 0px; width: 16px; height: 16px } 
+.dxCardView_CTDeleteRow_pydc { background-position: -450px 0px; width: 16px; height: 16px } 
+.dxCardView_CTDeleteRowDisabled_pydc { background-position: -342px 0px; width: 16px; height: 16px } 
+.dxCardView_CTEditRow_pydc { background-position: -396px 0px; width: 16px; height: 16px } 
+.dxCardView_CTEditRowDisabled_pydc { background-position: -378px 0px; width: 16px; height: 16px } 
+.dxCardView_CTExportCsv_pydc { background-position: -432px 0px; width: 16px; height: 16px } 
+.dxCardView_CTExportCsvDisabled_pydc { background-position: -414px 0px; width: 16px; height: 16px } 
+.dxCardView_CTExportDocx_pydc { background-position: -468px 0px; width: 16px; height: 16px } 
+.dxCardView_CTExportDocxDisabled_pydc { background-position: -486px 0px; width: 16px; height: 16px } 
+.dxCardView_CTExportPdf_pydc { background-position: -36px -18px; width: 16px; height: 16px } 
+.dxCardView_CTExportPdfDisabled_pydc { background-position: -54px -18px; width: 16px; height: 16px } 
+.dxCardView_CTExportRtf_pydc { background-position: 0px -18px; width: 16px; height: 16px } 
+.dxCardView_CTExportRtfDisabled_pydc { background-position: -72px -18px; width: 16px; height: 16px } 
+.dxCardView_CTExportXls_pydc { background-position: -270px 0px; width: 16px; height: 16px } 
+.dxCardView_CTExportXlsDisabled_pydc { background-position: -504px 0px; width: 16px; height: 16px } 
+.dxCardView_CTExportXlsx_pydc { background-position: -360px 0px; width: 16px; height: 16px } 
+.dxCardView_CTExportXlsxDisabled_pydc { background-position: -306px 0px; width: 16px; height: 16px } 
+.dxCardView_CTFullCollapse_pydc { background-position: -234px 0px; width: 16px; height: 16px } 
+.dxCardView_CTFullCollapseDisabled_pydc { background-position: -252px 0px; width: 16px; height: 16px } 
+.dxCardView_CTFullExpand_pydc { background-position: -288px 0px; width: 16px; height: 16px } 
+.dxCardView_CTFullExpandDisabled_pydc { background-position: -216px 0px; width: 16px; height: 16px } 
+.dxCardView_CTNewRow_pydc { background-position: -180px 0px; width: 16px; height: 16px } 
+.dxCardView_CTNewRowDisabled_pydc { background-position: -198px 0px; width: 16px; height: 16px } 
+.dxCardView_CTRefresh_pydc { background-position: -144px 0px; width: 16px; height: 16px } 
+.dxCardView_CTRefreshDisabled_pydc { background-position: -162px 0px; width: 16px; height: 16px } 
+.dxCardView_CTShowCustomizationWindow_pydc { background-position: -108px 0px; width: 16px; height: 16px } 
+.dxCardView_CTShowCustomizationWindowDisabled_pydc { background-position: -126px 0px; width: 16px; height: 16px } 
+.dxCardView_CTShowFilterEditor_pydc { background-position: -72px 0px; width: 16px; height: 16px } 
+.dxCardView_CTShowFilterEditorDisabled_pydc { background-position: -90px 0px; width: 16px; height: 16px } 
+.dxCardView_CTShowSearchPanel_pydc { background-position: -36px 0px; width: 16px; height: 16px } 
+.dxCardView_CTShowSearchPanelDisabled_pydc { background-position: -54px 0px; width: 16px; height: 16px } 
+.dxCardView_CTUpdateSummaries_pydc { background-position: -18px 0px; width: 16px; height: 16px } 
+.dxCardView_cvCollapsedButton_pydc { background-position: -154px -18px; width: 13px; height: 15px } 
+.dxCardView_cvCollapsedButtonRtl_pydc { background-position: -522px 0px; width: 13px; height: 15px } 
+.dxCardView_cvExpandedButton_pydc { background-position: -139px -18px; width: 13px; height: 15px } 
+.dxCardView_cvExpandedButtonRtl_pydc { background-position: -124px -18px; width: 13px; height: 15px } 
+.dxCardView_gvCellError_pydc { background-position: -169px -18px; width: 14px; height: 14px } 
+.dxCardView_gvFilterRowButton_pydc { background-position: -185px -18px; width: 13px; height: 13px } 
+.dxCardView_gvHeaderFilter_pydc { background-position: -107px -18px; width: 15px; height: 15px } 
+.dxCardView_gvHeaderFilterActive_pydc { background-position: -90px -18px; width: 15px; height: 15px } 
+.dxCardView_gvHeaderSortDown_pydc { background-position: -209px -18px; width: 7px; height: 5px } 
+.dxCardView_gvHeaderSortUp_pydc { background-position: -200px -18px; width: 7px; height: 5px } 
+.dxCardView_gvUpdateSummariesButton_pydc { background-position: -18px -18px; width: 16px; height: 16px } 
+

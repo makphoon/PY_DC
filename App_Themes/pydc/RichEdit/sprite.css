@@ -1,0 +1,15 @@
+
+.dxRichEdit_CenterTabDragHandle_pydc, .dxRichEdit_ColumnSeparatorDragHandle_pydc, .dxRichEdit_DecimalTabDragHandle_pydc, .dxRichEdit_FirstLineIndentDragHandle_pydc, .dxRichEdit_LeftIndentDragHandle_pydc, .dxRichEdit_LeftTabDragHandle_pydc, .dxRichEdit_QuickSearchCloseButton_pydc, .dxRichEdit_QuickSearchCollapseButton_pydc, .dxRichEdit_QuickSearchNextButton_pydc, .dxRichEdit_QuickSearchPrevButton_pydc, .dxRichEdit_RightIndentDragHandle_pydc, .dxRichEdit_RightTabDragHandle_pydc { background-image: url('sprite.png'); background-repeat: no-repeat; background-color: transparent } 
+.dxRichEdit_CenterTabDragHandle_pydc { background-position: -114px 0px; width: 8px; height: 6px } 
+.dxRichEdit_ColumnSeparatorDragHandle_pydc { background-position: -105px 0px; width: 7px; height: 8px } 
+.dxRichEdit_DecimalTabDragHandle_pydc { background-position: -124px 0px; width: 8px; height: 6px } 
+.dxRichEdit_FirstLineIndentDragHandle_pydc { background-position: -72px 0px; width: 9px; height: 8px } 
+.dxRichEdit_LeftIndentDragHandle_pydc { background-position: -83px 0px; width: 9px; height: 8px } 
+.dxRichEdit_LeftTabDragHandle_pydc { background-position: -134px 0px; width: 6px; height: 6px } 
+.dxRichEdit_QuickSearchCloseButton_pydc { background-position: -42px 0px; width: 13px; height: 12px } 
+.dxRichEdit_QuickSearchCollapseButton_pydc { background-position: -57px 0px; width: 13px; height: 12px } 
+.dxRichEdit_QuickSearchNextButton_pydc { background-position: 0px 0px; width: 19px; height: 18px } 
+.dxRichEdit_QuickSearchPrevButton_pydc { background-position: -21px 0px; width: 19px; height: 18px } 
+.dxRichEdit_RightIndentDragHandle_pydc { background-position: -94px 0px; width: 9px; height: 8px } 
+.dxRichEdit_RightTabDragHandle_pydc { background-position: -142px 0px; width: 6px; height: 6px } 
+

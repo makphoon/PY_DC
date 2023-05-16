@@ -1,0 +1,741 @@
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+.dxreControl_pydc
+{
+    border: solid 1px #9da0aa;
+    font: 11px Verdana, Geneva, sans-serif;
+}
+.dxreControl_pydc .dxreTableBorderLine
+{
+    background-color: #599eff;
+}
+.dxreControl_pydc .dxrePage
+{
+    border: 1px solid #808080;
+}
+.dxreControl_pydc .dxreView
+{
+    background-color: #F1F2F6;
+}
+.dxreControl_pydc .dxflFormLayout_pydc .dxre-editorsGroupWithPaddings
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.dxreControl_pydc .dxrControl_pydc .dxr-minBtn
+{
+    padding-right: 7px;
+}
+.dxreControl_pydc .dxrControl_pydc .dxtcLite_pydc
+{
+    background: #f1f2f6 url('RibbonBack.png') no-repeat right top;
+}
+.dxreControl_pydc .dxrControl_pydc .dxtcLite_pydc.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxreControl_pydc .dxrControl_pydc .dxr-tabContent
+{
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxrControl_pydc .dxreRibbonCBSmall
+{
+    width: 60px;
+}
+.dxrControl_pydc .dxreRibbonCBLarge
+{
+    width: 140px;
+}
+.dxrControl_pydc .dxreRibbonCBMiddle
+{
+    width: 100px;
+}
+.dxrControl_pydc .dxreRibbonSE
+{
+    width: 70px;
+}
+.dxreControl_pydc .dxreRulerWrapper
+{
+    padding-top: 2px;
+    background-color: #f1f2f6;
+}
+.dxreControl_pydc .dxreRulerWrapper .dxre-rulertabAlignBox
+{
+    background-color: #d3d3d3;
+}
+.dxreControl_pydc .dxreRulerWrapper .dxre-rulertabAlignBox > div
+{
+    background-color: #fff;
+}
+.dxreControl_pydc .dxreRulerLine
+{
+    border-left: 1px dashed #717171;
+}
+.dxreControl_pydc .dxreRulerLine.table
+{
+    border-left: 1px solid #599eff;
+}
+.dxreControl_pydc .dxreRuler .dxre-columnHandleLeftPart,
+.dxreControl_pydc .dxreRuler .dxre-columnHandleRightPart
+{
+    width: 5px;
+    background-color: #bcb8b8;
+}
+.dxreControl_pydc .dxreRuler .dxre-rulerTableColumnSeparatorHandle
+{
+    height: 12px;
+    background-color: #d3d3d3;
+}
+.dxreControl_pydc .dxreRuler .dxre-rulerTableColumnSeparatorHandle > div
+{
+    margin-top: 2px;
+}
+.dxreControl_pydc .dxreRuler .dxre-rulerDivisions
+{
+    height: 12px;
+    background-color: #fff;
+}
+.dxreControl_pydc .dxreRuler .dxre-rulerDivisions div
+{
+    height: 12px;
+}
+.dxreControl_pydc .dxreRuler .dxre-rulerDivisions .dxre-rulerMinorDivision,
+.dxreControl_pydc .dxreRuler .dxre-rulerDivisions .dxre-rulerMajorDivision
+{
+    border-left: 1px solid #a3a3a3;
+}
+.dxreControl_pydc .dxreRuler .dxre-rulerDivisions .dxre-rulerNumberDivision
+{
+    color: #4e4e4e;
+}
+.dxreControl_pydc .dxreRuler .dxre-rulerMarginLeftPanel,
+.dxreControl_pydc .dxreRuler .dxre-rulerMarginRightPanel,
+.dxreControl_pydc .dxreRuler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_pydc .dxreRuler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_pydc .dxreRuler .dxre-columnHandle,
+.dxreControl_pydc .dxreRuler .dxre-columnHandle > div
+{
+    height: 12px;
+}
+.dxreControl_pydc .dxreRuler .dxre-rulerMarginLeftPanel,
+.dxreControl_pydc .dxreRuler .dxre-rulerMarginRightPanel,
+.dxreControl_pydc .dxreRuler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_pydc .dxreRuler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_pydc .dxreRuler .dxre-columnHandle
+{
+    background-color: #d3d3d3;
+}
+.dxreControl_pydc .dxre-leftIndentDragHandleBody
+{
+    background-color: #fff;
+    border: 1px solid #929292;
+    border-top: none;
+    height: 6px;
+}
+.dxreControl_pydc .dxreQuickSearchPanel
+{
+    background-color: #FFFFFF;
+    border: 1px solid #a7a7a7;
+    border-top: none;
+    padding: 6px;
+}
+.dxreControl_pydc .dxreQuickSearchPanel .dxreQuickSearchButtonEdit
+{
+    width: 200px;
+}
+.dxreControl_pydc .dxreQuickSearchPanel .dxreQuickSearchButton:first-of-type
+{
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-left: 5px;
+}
+.dxreControl_pydc .dxreQuickSearchPanel .dxreQuickSearchButton:nth-of-type(2)
+{
+    margin-top: 1px;
+}
+.dxreControl_pydc .dxreQuickSearchPanel .dxreQuickSearchButton:nth-of-type(3)
+{
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 25px;
+}
+.dxreControl_pydc .dxreQuickSearchPanel .dxreQuickSearchButton:nth-of-type(4)
+{
+    margin-top: 2px;
+}
+.dxreControl_pydc .dxreQuickSearchPanel .dxreQuickSearchButton,
+.dxreControl_pydc .dxreQuickSearchPanel .dxreQuickSearchButton .dxb
+{
+    padding: 0px !important;
+    background: none !important;
+    border: none !important;
+}
+.dxreControl_pydc .dxreBar
+{
+    background-color: #f9f9fc;
+    border-top: 1px solid #cacbd3;
+    height: 24px;
+}
+.dxreControl_pydc .dxreBar .dxreLoadingPanel
+{
+    float: right;
+    margin: 3px 2px 0 0;
+    color: #749bca;
+}
+.dxreControl_pydc .dxreBar .dxreLoadingPanel .dx
+{
+    line-height: 0;
+}
+.dxreControl_pydc .dxreBar .dxreLoadingPanel .dxlp-loadingImage
+{
+    width: 18px;
+    height: 18px;
+    background: url('reLoadingOnStatusBar.gif');
+}
+.dxreControl_pydc .dxreDlgListBox
+{
+    padding: 1px;
+}
+.dxreControl_pydc .dxreDlgListBox > div
+{
+    border: 1px solid #9DA0AA;
+    margin: 1px;
+}
+.dxreControl_pydc .dxreDlgListBox .dxreDlgListHover
+{
+    background-color: #E2EAFD;
+}
+.dxreControl_pydc .dxreDlgListBox .dxreDlgListSelected
+{
+    background-color: #E9EAEE;
+}
+.dxreControl_pydc .dxre-numberinglistdialog
+{
+    max-width: 541px;
+}
+.dxreControl_pydc .dxre-simplenumberinglistdialog
+{
+    max-width: 385px;
+}
+.dxreControl_pydc .dxreDlgNumberingListForm .dxreDlgNumberingListPreview
+{
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.dxreControl_pydc .dxreDlgNumberingListForm .dxreDlgMainContainer
+{
+    height: 220px;
+}
+.dxreControl_pydc .dxreDlgNumberingListForm .dxreDlgListBox > div
+{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.dxreControl_pydc .dxre-bulletedlistdialog
+{
+    max-width: 352px;
+}
+.dxreControl_pydc .dxreDlgBulletedListForm .dxreDlgBulletPresetBtn
+{
+    width: 45px !important;
+    height: 45px !important;
+    float: left;
+    margin: 0px 0px 5px 5px;
+}
+.dxreControl_pydc .dxre-multilevelnumberinglistdialog
+{
+    max-width: 422px;
+}
+.dxreControl_pydc .dxreMultiLevelNumberingListBoxLayout,
+.dxreControl_pydc .dxreMultiLevelNumberingListBoxLayout .dxlbd
+{
+    width: 30px;
+    height: 100% !important;
+}
+.dxreControl_pydc .dxre-multiLevelOptionsLayout .dxflGroup_pydc
+{
+    padding: 0px;
+}
+.dxreControl_pydc .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup > tbody > tr > td:first-child
+{
+    padding-right: 0px;
+}
+.dxreControl_pydc .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup > tbody > tr > td:last-child
+{
+    padding: 0px;
+}
+.dxreControl_pydc .dxre-alertdialog
+{
+    max-width: 350px;
+}
+.dxreControl_pydc .dxre-alertdialog span
+{
+    user-select: text;
+}
+.dxreControl_pydc .dxre-layoutoptionsdialog
+{
+    max-width: 520px;
+}
+.dxreControl_pydc .dxreDlgLayoutForm .dxtc-content
+{
+    min-height: 420px;
+}
+.dxreControl_pydc .dxreDlgLayoutForm .dxre-layoutFormOriginalSizeGroup .dxflCaptionCellSys
+{
+    padding-top: 0px;
+}
+.dxreControl_pydc .dxreDlgLayoutForm .dxre-dialogPresetButton
+{
+    width: 25% !important;
+    text-align: center;
+    float: left;
+}
+@media (max-width: 500px)
+{
+    .dxreControl_pydc .dxreDlgLayoutForm .dxre-dialogPresetButton
+    {
+        width: 33% !important;
+    }
+}
+@media (max-width: 380px)
+{
+    .dxreControl_pydc .dxreDlgLayoutForm .dxre-dialogPresetButton
+    {
+        width: 50% !important;
+    }
+}
+.dxreControl_pydc .dxreDlgLayoutForm .dxre-buttonLable
+{
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.dxreControl_pydc .dxreDlgLayoutForm .dxre-sizeTabLayout .dx-dialogEditRoot > tbody > tr > td:first-child,
+.dxreControl_pydc .dxreDlgLayoutForm .dxre-positionTabLayout .dx-dialogEditRoot > tbody > tr > td:first-child
+{
+    width: 5% !important;
+}
+.dxreControl_pydc .dxreDialog .dxrpControl_pydc.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent
+{
+    padding: 15px;
+}
+.dxreControl_pydc .dxreDialog .dxrpControlGB_pydc > tbody > tr.dxrpCR > .dxrpcontent
+{
+    padding: 6px 10px 10px 10px;
+}
+@media (max-width: 420px)
+{
+    .dxreControl_pydc .dxreDialog .dxre-dialogShortEditor:not(.dxre-dialogNotResponsiveEditor),
+    .dxreControl_pydc .dxreDialog .dxre-dialogEditor:not(.dxre-dialogNotResponsiveEditor),
+    .dxreControl_pydc .dxreDialog .dxre-dialogLongEditor:not(.dxre-dialogNotResponsiveEditor)
+    {
+        max-width: 100%;
+    }
+    .dxreControl_pydc .dxreDialog .dxflItemSys .dxflCaptionCellSys
+    {
+        min-width: 25px !important;
+    }
+}
+.dxreControl_pydc .dxre-dialogShortEditor
+{
+    max-width: 70px;
+}
+.dxreControl_pydc .dxre-dialogEditor
+{
+    min-width: 70px;
+    max-width: 110px;
+}
+.dxreControl_pydc .dxre-dialogLongEditor
+{
+    max-width: 170px;
+}
+.dxreControl_pydc .dxreDlgInLayoutButton
+{
+    width: 68px !important;
+}
+.dxreControl_pydc .dxreDlgFooterBtn
+{
+    width: 80px !important;
+    margin-left: 8px;
+}
+.dxreControl_pydc .dxre-EmptyLine
+{
+    height: 10px;
+}
+.dxreControl_pydc .dxre-dialogFooter
+{
+    width: auto;
+    padding: 11px;
+    background-color: #EBECEF;
+    border-top: Solid 1px #A8AAB4;
+}
+.dxreControl_pydc .dxre-dialogLG.dxflGroupSys.dxre-dialogContentGroup
+{
+    padding: 11px 3px;
+}
+.dxreControl_pydc .dxre-dialogLGB > .dxre-dialogLG > div > .dxre-dialogLGC > .dxre-dialogLI
+{
+    padding-top: 2px;
+}
+.dxreControl_pydc .dxre-bookmarksdialog
+{
+    max-width: 300px;
+}
+.dxreControl_pydc .dxre-columnsdialog
+{
+    max-width: 400px;
+}
+.dxreControl_pydc .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable > tbody > tr > td
+{
+    padding: 2px 4px;
+}
+.dxreControl_pydc .dxreDlgColumnsForm .dxreDlgColumnsEditor
+{
+    height: 100px;
+}
+.dxreControl_pydc .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox
+{
+    width: 40px;
+}
+.dxreControl_pydc .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit
+{
+    width: 90px;
+}
+@media (max-width: 420px)
+{
+    .dxreControl_pydc .dxreDlgColumnsForm .dxbButton_pydc div.dxb
+    {
+        padding: 3px 5px 3px !important;
+        border: none;
+    }
+    .dxreControl_pydc .dxreDlgColumnsForm tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW
+    {
+        padding: 10px 0;
+    }
+    .dxreControl_pydc .dxreDlgColumnsForm .dxflGroup_pydc, .dxreControl_pydc .dxreDlgColumnsForm .dxflGroupCell_pydc
+    {
+        padding: 0 4px;
+    }
+    .dxreControl_pydc .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable
+    {
+        width: 100%;
+    }
+    .dxreControl_pydc .dxreDlgColumnsForm .dxflNotFloatedElSys .dxrpControl_pydc .dxflGroupCell_pydc
+    {
+        padding: 0px;
+    }
+}
+.dxreControl_pydc .dxre-Separator
+{
+    height: 0px;
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+.dxreControl_pydc .dxre-findreplacedialog
+{
+    max-width: 435px;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-searchResultList
+{
+    width: 100%;
+    height: 180px;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-searchResultList .dxeListBoxItem
+{
+    white-space: normal;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-dialogContentGroup
+{
+    padding: 24px !important;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-searchResult
+{
+    width: 100% !important;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-searchResult > div
+{
+    float: none !important;
+    width: auto !important;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-searchResult .dxflCaptionCell_pydc
+{
+    padding-top: 0px;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-searchResult .dxflNestedControlCell_pydc
+{
+    text-align: right;
+    white-space: nowrap;
+    color: #acacac;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-dialogControlsWrapper > tbody > tr > td:first-child
+{
+    width: auto;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-dialogControlsWrapper > tbody > tr > td:nth-child(2)
+{
+    width: 100%;
+    text-align: left;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-replaceInfo
+{
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+.dxreControl_pydc .dxre-findreplacedialog .dxre-replaceInfo > div
+{
+    padding: 8px;
+    background: #FFF2C0;
+}
+@media (max-width: 420px)
+{
+    .dxreControl_pydc .dxre-findreplacedialog .dxre-dialogFooter .dxreDlgFooterBtn
+    {
+        width: auto !important;
+    }
+    .dxreControl_pydc .dxre-findreplacedialog .dxre-dialogFooter .dxreDlgFooterBtn > div.dxb
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+}
+.dxreControl_pydc .dxre-fontdialog
+{
+    max-width: 500px;
+}
+.dxreControl_pydc .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroup_pydc,
+.dxreControl_pydc .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroupCell_pydc
+{
+    padding: 0px;
+}
+.dxreControl_pydc .dxreDlgFontForm .dxreCheckBoxContainer .dxflItem_pydc
+{
+    padding: 0px !important;
+}
+@media (max-width: 420px)
+{
+    .dxreControl_pydc .dxreDlgFontForm .dxre-dialogContentGroup .dxflLastChildSys .dxflGroupSys > div:not(.dxflFirstChildSys)
+    {
+        margin-top: 7px;
+    }
+}
+.dxreControl_pydc .dxre-hyperlinkdialog
+{
+    max-width: 470px;
+}
+.dxreControl_pydc .dxre-insertimagedialog
+{
+    max-width: 400px;
+}
+.dxreControl_pydc .dxreDlgInsertImageForm .dxreDlgImagePreview
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    color: #878787;
+    border: dashed 1px #cac8c8;
+    text-align: center;
+}
+.dxreControl_pydc .dxreDlgInsertImageForm .dxflCaption_pydc
+{
+    white-space: normal;
+}
+.dxreControl_pydc .dxreDlgInsertImageForm .dxre-dialogRadioNavigation
+{
+    padding-bottom: 7px;
+}
+.dxreControl_pydc .dxre-insertmergefielddialog
+{
+    max-width: 300px !important;
+}
+.dxreControl_pydc .dxre-insertmergefielddialog .dxeListBox_pydc
+{
+    height: 250px;
+    table-layout: fixed;
+}
+.dxreControl_pydc .dxre-finishandmergedialog
+{
+    max-width: 215px;
+}
+.dxreControl_pydc .dxre-openfiledialog
+{
+    max-width: 800px;
+}
+.dxreControl_pydc .dxreDlgOpenFileForm
+{
+    height: 500px;
+}
+.dxreControl_pydc .dxreDlgOpenFileForm .dxflGroupCell,
+.dxreControl_pydc .dxreDlgOpenFileForm .dxre-dialogContentGroup,
+.dxreControl_pydc .dxreDlgOpenFileForm .dxre-dialogContentGroup .dxflItem_pydc
+{
+    padding: 0px !important;
+}
+.dxreControl_pydc .dxre-pagesetupdialog
+{
+    max-width: 340px;
+}
+.dxreControl_pydc .dxreDlgPageSetupForm .dxre-headersAndFootersGroup .dxflLastChildSys > .dxre-dialogLGC
+{
+    padding: 0px;
+}
+.dxreControl_pydc .dxreDlgPageSetupForm .dxre-offsetGroup .dxflGroupCell_pydc
+{
+    padding: 0px;
+}
+.dxreControl_pydc .dxreDlgPageSetupForm .dxre-offsetGroup tr:first-child .dxflGroupCell_pydc:first-child
+{
+    padding-right: 10px;
+}
+@media (min-width: 420px)
+{
+    .dxreControl_pydc .dxreDlgPageSetupForm .dxtc-content
+    {
+        min-height: 255px;
+    }
+}
+.dxreControl_pydc .dxre-paragraphdialog
+{
+    max-width: 417px;
+}
+.dxreControl_pydc .dxreDlgParagraphForm .dxtc-content
+{
+    min-height: 335px;
+}
+.dxreControl_pydc .dxreDlgParagraphForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child
+{
+    text-align: left;
+}
+@media (min-width: 420px)
+{
+    .dxreControl_pydc .dxreDlgParagraphForm .dxre-dialogParagraphInnerLayout
+    {
+        padding-top: 3px;
+    }
+    .dxreControl_pydc .dxreDlgParagraphForm .dxre-dialogParagraphInnerLayout .dxflFirstChildSys .dxflGroupCell_pydc
+    {
+        padding-right: 8px;
+    }
+}
+.dxreControl_pydc .dxreDlgSaveFileForm
+{
+    width: 470px;
+}
+.dxreControl_pydc .dxre-spellingdialog
+{
+    max-width: 455px;
+}
+.dxreControl_pydc .dxreDlgSpellingForm .dxreDlgSB
+{
+    min-width: 80px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.dxreControl_pydc .dxreDlgSymbolsForm .dxreDlgSymbolsList
+{
+    height: 250px;
+    border: 1px solid #9DA0AA;
+}
+.dxreControl_pydc .dxreDlgSymbolsForm .dxreDlgListBox > div
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: large;
+}
+.dxreControl_pydc .dxre-splittablecellsdialog,
+.dxreControl_pydc .dxre-deletetablecellsdialog,
+.dxreControl_pydc .dxre-inserttabledialog
+{
+    max-width: 300px;
+}
+.dxreControl_pydc .dxre-tablepropertiesdialog
+{
+    max-width: 470px;
+}
+.dxreControl_pydc .dxreDlgTablePropertiesForm .dxtc-content
+{
+    min-height: 425px;
+}
+.dxreControl_pydc .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing
+{
+    text-align: right;
+}
+.dxreControl_pydc .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing table
+{
+    display: inline-block;
+}
+@media (max-width: 380px)
+{
+    .dxreControl_pydc .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing
+    {
+        text-align: left;
+    }
+}
+.dxreControl_pydc .dxreDlgTablePropertiesForm .dxreDlgRight .dxreDlgFooterBtn
+{
+    display: inline-table;
+}
+.dxreControl_pydc .dxre-bordershadingdialog
+{
+    max-width: 410px;
+}
+.dxreControl_pydc .dxreDlgBorderShadingForm .dxre-dialogBorderPresets
+{
+    padding: 6px 0;
+}
+.dxreControl_pydc .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogLGC
+{
+    padding: 0px;
+}
+.dxreControl_pydc .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogPresetButton
+{
+    padding-bottom: 5px;
+    text-align: center;
+}
+.dxreControl_pydc .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogPresetButton .dxre-buttonLable
+{
+    display: block;
+}
+.dxreControl_pydc .dxreDlgBorderShadingForm .dxreTableBorderPreview
+{
+    width: 130px !important;
+    display: inline-block;
+}
+.dxreControl_pydc .dxre-dialogCellMargins td.dxre-dialogLGC
+{
+    padding: 0 2px 0 0 !important;
+}
+.dxreControl_pydc .dxre-dialogCellBlock
+{
+    width: 68px;
+    background-color: #E0E0E0;
+    border: dashed 1px #818181;
+}
+.dxreControl_pydc .dxreBorderButton
+{
+    visibility: hidden;
+}
+.dxreControl_pydc .dxreBorderButton div.dxb
+{
+    padding: 0px !important;
+}
+.dxreControl_pydc .dxre-tabsdialog
+{
+    max-width: 380px;
+}
+.dxreControl_pydc .dxreDlgTabsForm .dxreDlgTabsList
+{
+    height: 70px;
+}
+.dxreControl_pydc .dxreDlgTabsForm .dxre-flowRadioButtonList span.dxichCellSys
+{
+    min-width: 90px;
+}

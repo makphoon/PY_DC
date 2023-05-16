@@ -1,0 +1,15 @@
+/* used as a border of large controls (like grids, diagram) */
+/* used as a background below a page in richedit/diagram */
+.dxsplControl_pydc .dxmLiteReportToolbarPane
+{
+    border: 1px solid #9da0aa;
+    background: #f1f2f6 url('../Web/mItemBack.png') repeat-x left top;
+    padding: 0;
+}
+table.dxXtraReports_PageTable .dxXtraReports_PageBorder_blc_pydc:before,
+table.dxXtraReports_PageTable .dxXtraReports_PageBorder_brc_pydc:before,
+table.dxXtraReports_PageTable .dxXtraReports_PageBorder_tlc_pydc:before,
+table.dxXtraReports_PageTable .dxXtraReports_PageBorder_trc_pydc:before
+{
+    content: none;
+}
