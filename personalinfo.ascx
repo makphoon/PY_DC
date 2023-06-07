@@ -280,7 +280,12 @@
                 </dx:BootstrapComboBox>
             </div>
         </div>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-left">
+                        <div class="col">
+                <dx:BootstrapTextBox ID="txt_bank" runat="server" Caption="ธนาคาร" Width="200px" ReadOnly="True">
+                    <CssClasses Caption="txt_caption" />
+                </dx:BootstrapTextBox>
+            </div>
             <div class="col">
                 <dx:BootstrapTextBox ID="txt_bankAcc" runat="server" Caption="เลขบัญชีธนาคาร" Width="200px" ReadOnly="True">
                     <CssClasses Caption="txt_caption" />
@@ -291,6 +296,7 @@
                     <CssClasses Caption="txt_caption" />
                 </dx:BootstrapTextBox>
             </div>
+            <div class="col"></div>
         </div>
 
     </div>

@@ -2,7 +2,7 @@
 Partial Class personalinfo
     Inherits System.Web.UI.UserControl
     Dim tbl_Emp, tbl_gender, tbl_State, tbl_country, tbl_city, tbl_district, tbl_subdistrict, tbl_bu, tbl_depart, tbl_EmployType As DataTable
-    Dim tbl_hiring, tbl_walfare, Tbl_Address, tbl_empStatus As DataTable
+    Dim tbl_hiring, tbl_walfare, Tbl_Address, tbl_empStatus, tbl_district2, tbl_subdistrict2 As DataTable
     Private Sub personalinfo_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
             get_EmpInfo("000001")
@@ -13,17 +13,15 @@ Partial Class personalinfo
             sel_country.DataSource = tbl_country
             sel_country.DataBind()
 
+            sel_country2.DataSource = tbl_country
+            sel_country2.DataBind()
+
             sel_state.DataSource = tbl_State
             sel_state.DataBind()
 
             sel_province.DataSource = tbl_city
             sel_province.DataBind()
 
-            sel_ampure.DataSource = tbl_district
-            sel_ampure.DataBind()
-
-            sel_tambon.DataSource = tbl_subdistrict
-            sel_tambon.DataBind()
 
             sel_bu.DataSource = tbl_bu
             sel_bu.DataBind()
@@ -69,7 +67,17 @@ Partial Class personalinfo
                         village.Text = mainClass.chk_dbnull(home_row(0)("village"))
 
                         Dim discode As Integer = home_row(0)("sub_dis_code")
+                        Dim citycode As Integer = Left(discode, 2)
+                        Dim dis_code As Integer = Left(discode, 4)
                         sel_country.SelectedIndex = 0
+
+                        tbl_district = mainClass.get_District(citycode)
+                        tbl_subdistrict = mainClass.get_Subdistrict(dis_code)
+                        sel_ampure.DataSource = tbl_district
+                        sel_ampure.DataBind()
+
+                        sel_tambon.DataSource = tbl_subdistrict
+                        sel_tambon.DataBind()
 
                         Dim prov_row As DataRow() = tbl_city.Select("city_code=" & Left(discode, 2).ToString())
                         sel_province.Text = prov_row(0)("name")
@@ -100,17 +108,33 @@ Partial Class personalinfo
                         road2.Text = mainClass.chk_dbnull(home_row2(0)("road"))
                         village2.Text = mainClass.chk_dbnull(home_row2(0)("village"))
 
-                        Dim discode As Integer = home_row2(0)("sub_dis_code")
+                        Dim discode2 As Integer = home_row2(0)("sub_dis_code")
+                        Dim citycode2 As Integer = Left(discode2, 2)
+                        Dim dis_code2 As Integer = Left(discode2, 4)
+
                         sel_country2.SelectedIndex = 0
 
-                        Dim prov_row As DataRow() = tbl_city.Select("city_code=" & Left(discode, 2).ToString())
-                        sel_province2.Text = prov_row(0)("name")
+                        tbl_district2 = mainClass.get_District(citycode2)
+                        tbl_subdistrict2 = mainClass.get_Subdistrict(dis_code2)
 
-                        Dim dis_row As DataRow() = tbl_district.Select("dis_code=" & Left(discode, 4).ToString())
-                        sel_ampure2.Text = dis_row(0)("name")
+                        sel_tambon2.DataSource = tbl_subdistrict2
+                        sel_tambon2.DataBind()
 
-                        Dim sub_dis_name As DataRow() = tbl_subdistrict.Select("sub_dis_code=" & discode.ToString())
-                        sel_tambon2.Text = sub_dis_name(0)("name")
+                        sel_ampure2.DataSource = tbl_district2
+                        sel_ampure2.DataBind()
+
+                        sel_province2.DataSource = tbl_city
+                        sel_province2.DataBind()
+
+
+                        Dim prov_row2 As DataRow() = tbl_city.Select("city_code=" & Left(discode2, 2).ToString())
+                        sel_province2.Text = prov_row2(0)("name")
+
+                        Dim dis_row2 As DataRow() = tbl_district2.Select("dis_code=" & Left(discode2, 4).ToString())
+                        sel_ampure2.Text = dis_row2(0)("name")
+
+                        Dim sub_dis_name2 As DataRow() = tbl_subdistrict2.Select("sub_dis_code=" & discode2.ToString())
+                        sel_tambon2.Text = sub_dis_name2(0)("name")
 
                         txt_postcode2.Text = mainClass.chk_dbnull(home_row2(0)("post_code"))
                     Else
@@ -167,12 +191,13 @@ Partial Class personalinfo
                 txt_bank_brance.Text = tbl_Emp.Rows(0)("bank_brance")
 
                 hiring_start.Text = mainClass.chk_dbnull(tbl_Emp.Rows(0)("start_date"))
+                permanent_date.Text = mainClass.chk_dbnull(tbl_Emp.Rows(0)("permanent_date"))
                 finish_date.Text = mainClass.chk_dbnull(tbl_Emp.Rows(0)("finish_date"))
                 retire_date.Text = mainClass.chk_dbnull(tbl_Emp.Rows(0)("retire_date"))
 
                 Dim end_date As Date
-                If Not tbl_Emp.Rows(0)("retire_date").Equals(DBNull.Value) Then
-                    end_date = tbl_Emp.Rows(0)("retire_date")
+                If Not tbl_Emp.Rows(0)("finish_date").Equals(DBNull.Value) Then
+                    end_date = tbl_Emp.Rows(0)("finish_date")
                 Else
                     end_date = Today()
                 End If
@@ -192,10 +217,10 @@ Partial Class personalinfo
         Tbl_Address = Employee.get_Address(em_code)
         tbl_gender = mainClass.get_gender()
         tbl_State = mainClass.get_State()
-        tbl_country = mainClass.get_Country
+        tbl_country = mainClass.get_Country()
+
         tbl_city = mainClass.get_City(0)
-        tbl_district = mainClass.get_District(0)
-        tbl_subdistrict = mainClass.get_Subdistrict(0)
+
         tbl_bu = mainClass.get_BU("PY")
         tbl_depart = mainClass.get_Division("")
         tbl_EmployType = mainClass.get_EmpType()
