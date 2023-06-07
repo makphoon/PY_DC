@@ -248,7 +248,7 @@
             </dx:BootstrapDateEdit>
             </div>
             <div class="col">
-            <dx:BootstrapDateEdit ID="finish_date" runat="server" Caption="สิ้นสุดวันที่ทดลองงาน" Width="200px" ReadOnly="True" NullText="-" DisplayFormatString="dd-MMMM-yyyy">
+            <dx:BootstrapDateEdit ID="permanent_date" runat="server" Caption="สิ้นสุดวันที่ทดลองงาน" Width="200px" ReadOnly="True" NullText="-" DisplayFormatString="dd-MMMM-yyyy">
                 <CssClasses Caption="txt_caption" />
             </dx:BootstrapDateEdit>
             </div>
@@ -260,31 +260,36 @@
         </div>
         <div class="row justify-content-md-center">
             <div class="col">
-                 <dx:BootstrapTextBox ID="txt_hiringAge" runat="server" Caption="อายุงาน" Width="200px" ReadOnly="True">
-                     <CssClasses Caption="txt_caption" />
-                 </dx:BootstrapTextBox>
-            </div>
-           <div class="col">
-            <dx:BootstrapComboBox ID="sel_welfare" runat="server" TextField="group_name" ValueField="group_code" valuetype="System.String" Caption="กลุ่มสวัสดิการ" ReadOnly="True" Width="200px" CallbackPageSize="10000">
-                <CssClasses Caption="txt_caption" />
-            </dx:BootstrapComboBox>
+                <dx:BootstrapDateEdit ID="finish_date" runat="server" Caption="วันที่สิ้นสุดสัญญา/ลาออก" Width="200px" ReadOnly="True" NullText="-" DisplayFormatString="dd-MMMM-yyyy">
+                    <CssClasses Caption="txt_caption" />
+                </dx:BootstrapDateEdit>
             </div>
             <div class="col">
-                 <dx:BootstrapTextBox ID="txt_bankAcc" runat="server" Caption="เลขบัญชีธนาคาร" Width="200px" ReadOnly="True">
-                     <CssClasses Caption="txt_caption" />
-                 </dx:BootstrapTextBox>
+                <dx:BootstrapTextBox ID="txt_hiringAge" runat="server" Caption="อายุงาน" Width="200px" ReadOnly="True">
+                    <CssClasses Caption="txt_caption" />
+                </dx:BootstrapTextBox>
+            </div>
+            <div class="col">
+                <dx:BootstrapComboBox ID="sel_welfare" runat="server" TextField="group_name" ValueField="group_code" ValueType="System.String" Caption="กลุ่มสวัสดิการ" ReadOnly="True" Width="200px" CallbackPageSize="10000">
+                    <CssClasses Caption="txt_caption" />
+                </dx:BootstrapComboBox>
+            </div>
+            <div class="col">
+                <dx:BootstrapComboBox ID="emp_status" runat="server" TextField="description" ValueField="status_code" ValueType="System.String" Caption="สถานะการทำงาน" ReadOnly="True" Width="200px" CallbackPageSize="10000">
+                    <CssClasses Caption="txt_caption" />
+                </dx:BootstrapComboBox>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col">
+                <dx:BootstrapTextBox ID="txt_bankAcc" runat="server" Caption="เลขบัญชีธนาคาร" Width="200px" ReadOnly="True">
+                    <CssClasses Caption="txt_caption" />
+                </dx:BootstrapTextBox>
             </div>
             <div class="col">
                 <dx:BootstrapTextBox ID="txt_bank_brance" runat="server" Caption="สาขาธนาคาร" Width="200px" ReadOnly="True">
                     <CssClasses Caption="txt_caption" />
                 </dx:BootstrapTextBox>
-            </div>
-        </div>
-        <div class="row justify-content-md-center">
-            <div class="col">
-                <dx:BootstrapComboBox ID="emp_status" runat="server" TextField="description" ValueField="status_code" ValueType="System.String" Caption="สถานะการทำงาน" ReadOnly="True" Width="200px" CallbackPageSize="10000">
-                    <CssClasses Caption="txt_caption" />
-                </dx:BootstrapComboBox>
             </div>
         </div>
 

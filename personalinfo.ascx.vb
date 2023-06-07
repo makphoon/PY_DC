@@ -55,7 +55,7 @@ Partial Class personalinfo
                 sel_sex.Text = tbl_Emp.Rows(0)("gender")
                 sel_state.Text = tbl_Emp.Rows(0)("state")
                 txt_birthday.Text = mainClass.chk_dbnull(tbl_Emp.Rows(0)("birthday"))
-                txt_age.Text = mainClass.chk_dbnull(tbl_Emp.Rows(0)("age"))
+                txt_age.Text = mainClass.cal_WorkAge(tbl_Emp.Rows(0)("birthday"), Today())
                 txt_tel.Text = mainClass.chk_dbnull(tbl_Emp.Rows(0)("tel"))
                 txt_car.Text = mainClass.chk_dbnull(tbl_Emp.Rows(0)("plate"))
 
