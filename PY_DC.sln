@@ -6,22 +6,22 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PY_DC", "http://localhost/PY_DC", "{C40103F4-D71A-4AB6-A215-54B2742130EB}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "false"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
 		Debug.AspNetCompiler.VirtualPath = "/PY_DC"
-		Debug.AspNetCompiler.PhysicalPath = "D:\wwwroot\PY_DC\"
+		Debug.AspNetCompiler.PhysicalPath = "..\PY_DC\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PY_DC\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/PY_DC"
-		Release.AspNetCompiler.PhysicalPath = "D:\wwwroot\PY_DC\"
+		Release.AspNetCompiler.PhysicalPath = "..\PY_DC\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PY_DC\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "D:\wwwroot\PY_DC\"
+		SlnRelativePath = "..\PY_DC\"
 	EndProjectSection
 EndProject
 Global
